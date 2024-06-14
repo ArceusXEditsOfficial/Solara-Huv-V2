@@ -1,0 +1,4676 @@
+--[[
+
+		By ASXE
+                Key System By LAN.
+		Solara Hub V2
+		Version 2.0.1
+
+]]
+
+
+-- Instances
+
+local PcscriptREALSINGSOON = Instance.new("ScreenGui")
+local FrameOfIt = Instance.new("Frame")
+local Guis = Instance.new("Folder")
+local TextLabel = Instance.new("TextLabel")
+local IconNONMASKED = Instance.new("ImageButton")
+local SomeCornerThing = Instance.new("UICorner")
+local UICorner = Instance.new("UICorner")
+local Dividers = Instance.new("Folder")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local Frame_3 = Instance.new("Frame")
+local Frame_4 = Instance.new("Frame")
+local Frame_5 = Instance.new("Frame")
+local Frame_6 = Instance.new("Frame")
+local Frame_7 = Instance.new("Frame")
+local Scripts = Instance.new("Folder")
+local Antilag = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local FEAstravaGui = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local OPFinalityGui = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local RevizAdminGui = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local PFMenu = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local ScriptHub = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local AdvancedRHSGui = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Aimbot = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local AnimationGui = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local AK47 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local R15Gui = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local AposAdmin = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local ArmDetach = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local ArmFlap = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local ArmTurbine = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local Arms = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local AttachPlayerNEED2TOOLS = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local ArosiaGui = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local ArmsOut = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local MoreScripts = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+
+-- Properties
+
+PcscriptREALSINGSOON.Name = "Pc script REALSING SOON"
+PcscriptREALSINGSOON.Parent = game.Workspace
+PcscriptREALSINGSOON.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+FrameOfIt.Name = "Frame Of It"
+FrameOfIt.Parent = PcscriptREALSINGSOON
+FrameOfIt.BackgroundColor3 = Color3.new(0.294118, 0.290196, 0.290196)
+FrameOfIt.BorderColor3 = Color3.new(0, 0, 0)
+FrameOfIt.BorderSizePixel = 0
+FrameOfIt.Position = UDim2.new(0.189795166, 0, 0.176654443, 0)
+FrameOfIt.Size = UDim2.new(0, 949, 0, 494)
+
+Guis.Name = "Guis"
+Guis.Parent = FrameOfIt
+
+TextLabel.Parent = Guis
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 12
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0189674627, 0, -0.0141700404, 0)
+TextLabel.Size = UDim2.new(0, 878, 0, 51)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "[PC] Universal Solara Hub V1.0 (BETA) [note: All are FE exept Fps Booster.]"
+TextLabel.TextColor3 = Color3.new(0.0901961, 1, 0.0901961)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14
+TextLabel.TextWrapped = true
+
+IconNONMASKED.Name = "Icon (NON MASKED)"
+IconNONMASKED.Parent = Guis
+IconNONMASKED.BackgroundColor3 = Color3.new(1, 1, 1)
+IconNONMASKED.BorderColor3 = Color3.new(0, 0, 0)
+IconNONMASKED.BorderSizePixel = 0
+IconNONMASKED.Position = UDim2.new(0.939412355, 0, 0.0508994907, 0)
+IconNONMASKED.Size = UDim2.new(0, 57, 0, 53)
+IconNONMASKED.Image = "http://www.roblox.com/asset/?id=17844316818"
+
+SomeCornerThing.Name = "Some Corner Thing"
+SomeCornerThing.Parent = IconNONMASKED
+SomeCornerThing.CornerRadius = UDim.new(4, 0)
+
+UICorner.Parent = FrameOfIt
+UICorner.CornerRadius = UDim.new(0.100000001, 0)
+
+Dividers.Name = "Dividers"
+Dividers.Parent = FrameOfIt
+
+Frame.Parent = Dividers
+Frame.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame.BorderColor3 = Color3.new(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 0.576846302, 0)
+Frame.Size = UDim2.new(0, 949, 0, 1)
+
+Frame_2.Parent = Dividers
+Frame_2.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame_2.BorderColor3 = Color3.new(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, 0.790419102, 0)
+Frame_2.Size = UDim2.new(0, 949, 0, -1)
+
+Frame_3.Parent = Dividers
+Frame_3.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame_3.BorderColor3 = Color3.new(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.23349753, 0, 0.998312354, 0)
+Frame_3.Size = UDim2.new(0, 1, 0, -449)
+
+Frame_4.Parent = Dividers
+Frame_4.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame_4.BorderColor3 = Color3.new(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0.439408869, 0, 0.998312354, 0)
+Frame_4.Size = UDim2.new(0, -1, 0, -449)
+
+Frame_5.Parent = Dividers
+Frame_5.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame_5.BorderColor3 = Color3.new(0, 0, 0)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0.650246322, 0, 0.998312354, 0)
+Frame_5.Size = UDim2.new(0, -1, 0, -449)
+
+Frame_6.Parent = Dividers
+Frame_6.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame_6.BorderColor3 = Color3.new(0, 0, 0)
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(0.824630558, 0, 0.998312354, 0)
+Frame_6.Size = UDim2.new(0, 1, 0, -449)
+
+Frame_7.Parent = Dividers
+Frame_7.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame_7.BorderColor3 = Color3.new(0, 0, 0)
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(0, 0, 0.367265463, 0)
+Frame_7.Size = UDim2.new(0, 949, 0, 1)
+
+Scripts.Name = "Scripts"
+Scripts.Parent = FrameOfIt
+
+Antilag.Name = "Antilag"
+Antilag.Parent = Scripts
+Antilag.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+Antilag.BorderColor3 = Color3.new(0, 0, 0)
+Antilag.BorderSizePixel = 0
+Antilag.Position = UDim2.new(0.0196363088, 0, 0.19611831, 0)
+Antilag.Size = UDim2.new(0, 182, 0, 56)
+Antilag.Font = Enum.Font.SourceSans
+Antilag.Text = "Fps Enhancer (Fps Booster)"
+Antilag.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+Antilag.TextScaled = true
+Antilag.TextSize = 14
+Antilag.TextStrokeTransparency = 0
+Antilag.TextWrapped = true
+
+UICorner_2.Parent = Antilag
+
+FEAstravaGui.Name = "[FE] Astrava Gui"
+FEAstravaGui.Parent = Scripts
+FEAstravaGui.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+FEAstravaGui.BorderColor3 = Color3.new(0, 0, 0)
+FEAstravaGui.BorderSizePixel = 0
+FEAstravaGui.Position = UDim2.new(0.0196363088, 0, 0.420814663, 0)
+FEAstravaGui.Size = UDim2.new(0, 182, 0, 56)
+FEAstravaGui.Font = Enum.Font.SourceSans
+FEAstravaGui.Text = "[FE] Astrava Gui"
+FEAstravaGui.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+FEAstravaGui.TextScaled = true
+FEAstravaGui.TextSize = 14
+FEAstravaGui.TextStrokeTransparency = 0
+FEAstravaGui.TextWrapped = true
+
+UICorner_3.Parent = FEAstravaGui
+
+OPFinalityGui.Name = "OPFinality Gui"
+OPFinalityGui.Parent = Scripts
+OPFinalityGui.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+OPFinalityGui.BorderColor3 = Color3.new(0, 0, 0)
+OPFinalityGui.BorderSizePixel = 0
+OPFinalityGui.Position = UDim2.new(0.0196363088, 0, 0.625268102, 0)
+OPFinalityGui.Size = UDim2.new(0, 182, 0, 56)
+OPFinalityGui.Font = Enum.Font.SourceSans
+OPFinalityGui.Text = "OPFinality Gui"
+OPFinalityGui.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+OPFinalityGui.TextScaled = true
+OPFinalityGui.TextSize = 14
+OPFinalityGui.TextStrokeTransparency = 0
+OPFinalityGui.TextWrapped = true
+
+UICorner_4.Parent = OPFinalityGui
+
+RevizAdminGui.Name = "Reviz Admin Gui"
+RevizAdminGui.Parent = Scripts
+RevizAdminGui.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+RevizAdminGui.BorderColor3 = Color3.new(0, 0, 0)
+RevizAdminGui.BorderSizePixel = 0
+RevizAdminGui.Position = UDim2.new(0.0196363088, 0, 0.835794449, 0)
+RevizAdminGui.Size = UDim2.new(0, 182, 0, 56)
+RevizAdminGui.Font = Enum.Font.SourceSans
+RevizAdminGui.Text = "Reviz Admin Gui"
+RevizAdminGui.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+RevizAdminGui.TextScaled = true
+RevizAdminGui.TextSize = 14
+RevizAdminGui.TextStrokeTransparency = 0
+RevizAdminGui.TextWrapped = true
+
+UICorner_5.Parent = RevizAdminGui
+
+PFMenu.Name = "!PF Menu"
+PFMenu.Parent = Scripts
+PFMenu.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+PFMenu.BorderColor3 = Color3.new(0, 0, 0)
+PFMenu.BorderSizePixel = 0
+PFMenu.Position = UDim2.new(0.246190608, 0, 0.19611831, 0)
+PFMenu.Size = UDim2.new(0, 166, 0, 56)
+PFMenu.Font = Enum.Font.SourceSans
+PFMenu.Text = "!PF Menu"
+PFMenu.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+PFMenu.TextScaled = true
+PFMenu.TextSize = 14
+PFMenu.TextStrokeTransparency = 0
+PFMenu.TextWrapped = true
+
+UICorner_6.Parent = PFMenu
+
+ScriptHub.Name = "Script Hub"
+ScriptHub.Parent = Scripts
+ScriptHub.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+ScriptHub.BorderColor3 = Color3.new(0, 0, 0)
+ScriptHub.BorderSizePixel = 0
+ScriptHub.Position = UDim2.new(0.246190608, 0, 0.443081886, 0)
+ScriptHub.Size = UDim2.new(0, 166, 0, 56)
+ScriptHub.Font = Enum.Font.SourceSans
+ScriptHub.Text = "Script Hub"
+ScriptHub.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+ScriptHub.TextScaled = true
+ScriptHub.TextSize = 14
+ScriptHub.TextStrokeTransparency = 0
+ScriptHub.TextWrapped = true
+
+UICorner_7.Parent = ScriptHub
+
+AdvancedRHSGui.Name = "Advanced RHS Gui"
+AdvancedRHSGui.Parent = Scripts
+AdvancedRHSGui.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+AdvancedRHSGui.BorderColor3 = Color3.new(0, 0, 0)
+AdvancedRHSGui.BorderSizePixel = 0
+AdvancedRHSGui.Position = UDim2.new(0.246190608, 0, 0.625268102, 0)
+AdvancedRHSGui.Size = UDim2.new(0, 166, 0, 56)
+AdvancedRHSGui.Font = Enum.Font.SourceSans
+AdvancedRHSGui.Text = "Advanced RHS Gui"
+AdvancedRHSGui.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+AdvancedRHSGui.TextScaled = true
+AdvancedRHSGui.TextSize = 14
+AdvancedRHSGui.TextStrokeTransparency = 0
+AdvancedRHSGui.TextWrapped = true
+
+UICorner_8.Parent = AdvancedRHSGui
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = Scripts
+Aimbot.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+Aimbot.BorderColor3 = Color3.new(0, 0, 0)
+Aimbot.BorderSizePixel = 0
+Aimbot.Position = UDim2.new(0.246190608, 0, 0.835794449, 0)
+Aimbot.Size = UDim2.new(0, 166, 0, 56)
+Aimbot.Font = Enum.Font.SourceSans
+Aimbot.Text = "Aimbot"
+Aimbot.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+Aimbot.TextScaled = true
+Aimbot.TextSize = 14
+Aimbot.TextStrokeTransparency = 0
+Aimbot.TextWrapped = true
+
+UICorner_9.Parent = Aimbot
+
+AnimationGui.Name = "Animation Gui"
+AnimationGui.Parent = Scripts
+AnimationGui.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+AnimationGui.BorderColor3 = Color3.new(0, 0, 0)
+AnimationGui.BorderSizePixel = 0
+AnimationGui.Position = UDim2.new(0.453777552, 0, 0.420814663, 0)
+AnimationGui.Size = UDim2.new(0, 166, 0, 56)
+AnimationGui.Font = Enum.Font.SourceSans
+AnimationGui.Text = "Animation Gui"
+AnimationGui.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+AnimationGui.TextScaled = true
+AnimationGui.TextSize = 14
+AnimationGui.TextStrokeTransparency = 0
+AnimationGui.TextWrapped = true
+
+UICorner_10.Parent = AnimationGui
+
+AK47.Name = "AK-47"
+AK47.Parent = Scripts
+AK47.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+AK47.BorderColor3 = Color3.new(0, 0, 0)
+AK47.BorderSizePixel = 0
+AK47.Position = UDim2.new(0.453777552, 0, 0.19611831, 0)
+AK47.Size = UDim2.new(0, 166, 0, 56)
+AK47.Font = Enum.Font.SourceSans
+AK47.Text = "AK-47"
+AK47.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+AK47.TextScaled = true
+AK47.TextSize = 14
+AK47.TextStrokeTransparency = 0
+AK47.TextWrapped = true
+
+UICorner_11.Parent = AK47
+
+R15Gui.Name = "R15 Gui"
+R15Gui.Parent = Scripts
+R15Gui.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+R15Gui.BorderColor3 = Color3.new(0, 0, 0)
+R15Gui.BorderSizePixel = 0
+R15Gui.Position = UDim2.new(0.453777552, 0, 0.625268102, 0)
+R15Gui.Size = UDim2.new(0, 166, 0, 56)
+R15Gui.Font = Enum.Font.SourceSans
+R15Gui.Text = "R15 Gui"
+R15Gui.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+R15Gui.TextScaled = true
+R15Gui.TextSize = 14
+R15Gui.TextStrokeTransparency = 0
+R15Gui.TextWrapped = true
+
+UICorner_12.Parent = R15Gui
+
+AposAdmin.Name = "Apos Admin"
+AposAdmin.Parent = Scripts
+AposAdmin.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+AposAdmin.BorderColor3 = Color3.new(0, 0, 0)
+AposAdmin.BorderSizePixel = 0
+AposAdmin.Position = UDim2.new(0.453777552, 0, 0.835794449, 0)
+AposAdmin.Size = UDim2.new(0, 166, 0, 56)
+AposAdmin.Font = Enum.Font.SourceSans
+AposAdmin.Text = "Apos Admin"
+AposAdmin.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+AposAdmin.TextScaled = true
+AposAdmin.TextSize = 14
+AposAdmin.TextStrokeTransparency = 0
+AposAdmin.TextWrapped = true
+
+UICorner_13.Parent = AposAdmin
+
+ArmDetach.Name = "Arm Detach"
+ArmDetach.Parent = Scripts
+ArmDetach.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+ArmDetach.BorderColor3 = Color3.new(0, 0, 0)
+ArmDetach.BorderSizePixel = 0
+ArmDetach.Position = UDim2.new(0.666633189, 0, 0.19611831, 0)
+ArmDetach.Size = UDim2.new(0, 137, 0, 56)
+ArmDetach.Font = Enum.Font.SourceSans
+ArmDetach.Text = "Arm Detach"
+ArmDetach.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+ArmDetach.TextScaled = true
+ArmDetach.TextSize = 14
+ArmDetach.TextStrokeTransparency = 0
+ArmDetach.TextWrapped = true
+
+UICorner_14.Parent = ArmDetach
+
+ArmFlap.Name = "Arm Flap"
+ArmFlap.Parent = Scripts
+ArmFlap.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+ArmFlap.BorderColor3 = Color3.new(0, 0, 0)
+ArmFlap.BorderSizePixel = 0
+ArmFlap.Position = UDim2.new(0.666633189, 0, 0.420814663, 0)
+ArmFlap.Size = UDim2.new(0, 137, 0, 56)
+ArmFlap.Font = Enum.Font.SourceSans
+ArmFlap.Text = "Arm Flap"
+ArmFlap.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+ArmFlap.TextScaled = true
+ArmFlap.TextSize = 14
+ArmFlap.TextStrokeTransparency = 0
+ArmFlap.TextWrapped = true
+
+UICorner_15.Parent = ArmFlap
+
+ArmTurbine.Name = "Arm Turbine"
+ArmTurbine.Parent = Scripts
+ArmTurbine.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+ArmTurbine.BorderColor3 = Color3.new(0, 0, 0)
+ArmTurbine.BorderSizePixel = 0
+ArmTurbine.Position = UDim2.new(0.666633189, 0, 0.625268102, 0)
+ArmTurbine.Size = UDim2.new(0, 137, 0, 56)
+ArmTurbine.Font = Enum.Font.SourceSans
+ArmTurbine.Text = "Arm Turbine"
+ArmTurbine.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+ArmTurbine.TextScaled = true
+ArmTurbine.TextSize = 14
+ArmTurbine.TextStrokeTransparency = 0
+ArmTurbine.TextWrapped = true
+
+UICorner_16.Parent = ArmTurbine
+
+Arms.Name = "Arms"
+Arms.Parent = Scripts
+Arms.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+Arms.BorderColor3 = Color3.new(0, 0, 0)
+Arms.BorderSizePixel = 0
+Arms.Position = UDim2.new(0.666633189, 0, 0.835794449, 0)
+Arms.Size = UDim2.new(0, 137, 0, 56)
+Arms.Font = Enum.Font.SourceSans
+Arms.Text = "Arms"
+Arms.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+Arms.TextScaled = true
+Arms.TextSize = 14
+Arms.TextStrokeTransparency = 0
+Arms.TextWrapped = true
+
+UICorner_17.Parent = Arms
+
+AttachPlayerNEED2TOOLS.Name = "Attach Player [NEED 2 TOOLS]"
+AttachPlayerNEED2TOOLS.Parent = Scripts
+AttachPlayerNEED2TOOLS.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+AttachPlayerNEED2TOOLS.BorderColor3 = Color3.new(0, 0, 0)
+AttachPlayerNEED2TOOLS.BorderSizePixel = 0
+AttachPlayerNEED2TOOLS.Position = UDim2.new(0.840500414, 0, 0.625268102, 0)
+AttachPlayerNEED2TOOLS.Size = UDim2.new(0, 137, 0, 56)
+AttachPlayerNEED2TOOLS.Font = Enum.Font.SourceSans
+AttachPlayerNEED2TOOLS.Text = "Attach Player [NEED 2 TOOLS]"
+AttachPlayerNEED2TOOLS.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+AttachPlayerNEED2TOOLS.TextScaled = true
+AttachPlayerNEED2TOOLS.TextSize = 14
+AttachPlayerNEED2TOOLS.TextStrokeTransparency = 0
+AttachPlayerNEED2TOOLS.TextWrapped = true
+
+UICorner_18.Parent = AttachPlayerNEED2TOOLS
+
+ArosiaGui.Name = "Arosia Gui"
+ArosiaGui.Parent = Scripts
+ArosiaGui.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+ArosiaGui.BorderColor3 = Color3.new(0, 0, 0)
+ArosiaGui.BorderSizePixel = 0
+ArosiaGui.Position = UDim2.new(0.840500414, 0, 0.420814663, 0)
+ArosiaGui.Size = UDim2.new(0, 137, 0, 56)
+ArosiaGui.Font = Enum.Font.SourceSans
+ArosiaGui.Text = "Arosia Gui"
+ArosiaGui.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+ArosiaGui.TextScaled = true
+ArosiaGui.TextSize = 14
+ArosiaGui.TextStrokeTransparency = 0
+ArosiaGui.TextWrapped = true
+
+UICorner_19.Parent = ArosiaGui
+
+ArmsOut.Name = "Arms Out"
+ArmsOut.Parent = Scripts
+ArmsOut.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+ArmsOut.BorderColor3 = Color3.new(0, 0, 0)
+ArmsOut.BorderSizePixel = 0
+ArmsOut.Position = UDim2.new(0.840500414, 0, 0.19611831, 0)
+ArmsOut.Size = UDim2.new(0, 137, 0, 56)
+ArmsOut.Font = Enum.Font.SourceSans
+ArmsOut.Text = "Arms Out"
+ArmsOut.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+ArmsOut.TextScaled = true
+ArmsOut.TextSize = 14
+ArmsOut.TextStrokeTransparency = 0
+ArmsOut.TextWrapped = true
+
+UICorner_20.Parent = ArmsOut
+
+MoreScripts.Name = "More Scripts..."
+MoreScripts.Parent = FrameOfIt
+MoreScripts.BackgroundColor3 = Color3.new(0, 1, 0)
+MoreScripts.BorderColor3 = Color3.new(0, 0, 0)
+MoreScripts.BorderSizePixel = 0
+MoreScripts.Position = UDim2.new(0.840500414, 0, 0.813765168, 0)
+MoreScripts.Size = UDim2.new(0, 136, 0, 66)
+MoreScripts.Font = Enum.Font.Unknown
+MoreScripts.Text = "More Scripts.."
+MoreScripts.TextColor3 = Color3.new(0.117647, 0.541176, 0.0705882)
+MoreScripts.TextScaled = true
+MoreScripts.TextSize = 14
+MoreScripts.TextWrapped = true
+MoreScripts.MouseButton1Down:connect(function()
+	--[[
+
+		Gui2Lua™
+		10zOfficial
+		Version 1.0.0
+
+]]
+
+
+	-- Instances
+
+	local PcscriptPage2 = Instance.new("ScreenGui")
+	local FrameOfIt = Instance.new("Frame")
+	local Guis = Instance.new("Folder")
+	local TextLabel = Instance.new("TextLabel")
+	local IconNONMASKED = Instance.new("ImageButton")
+	local SomeCornerThing = Instance.new("UICorner")
+	local UICorner = Instance.new("UICorner")
+	local Dividers = Instance.new("Folder")
+	local Frame = Instance.new("Frame")
+	local Frame_2 = Instance.new("Frame")
+	local Frame_3 = Instance.new("Frame")
+	local Frame_4 = Instance.new("Frame")
+	local Frame_5 = Instance.new("Frame")
+	local Frame_6 = Instance.new("Frame")
+	local Frame_7 = Instance.new("Frame")
+	local Scripts = Instance.new("Folder")
+	local BalkusGui = Instance.new("TextButton")
+	local UICorner_2 = Instance.new("UICorner")
+	local BarrelRoll = Instance.new("TextButton")
+	local UICorner_3 = Instance.new("UICorner")
+	local BecomeAFakeSimon = Instance.new("TextButton")
+	local UICorner_4 = Instance.new("UICorner")
+	local BecomeAFakeBarista = Instance.new("TextButton")
+	local UICorner_5 = Instance.new("UICorner")
+	local BlackChat = Instance.new("TextButton")
+	local UICorner_6 = Instance.new("UICorner")
+	local Blackhole = Instance.new("TextButton")
+	local UICorner_7 = Instance.new("UICorner")
+	local Blink = Instance.new("TextButton")
+	local UICorner_8 = Instance.new("UICorner")
+	local BlockHats = Instance.new("TextButton")
+	local UICorner_9 = Instance.new("UICorner")
+	local Block = Instance.new("TextButton")
+	local UICorner_10 = Instance.new("UICorner")
+	local BlockHead = Instance.new("TextButton")
+	local UICorner_11 = Instance.new("UICorner")
+	local BombVest = Instance.new("TextButton")
+	local UICorner_12 = Instance.new("UICorner")
+	local BowDown = Instance.new("TextButton")
+	local UICorner_13 = Instance.new("UICorner")
+	local BoxFarmGuiPressN = Instance.new("TextButton")
+	local UICorner_14 = Instance.new("UICorner")
+	local BreakCharacter = Instance.new("TextButton")
+	local UICorner_15 = Instance.new("UICorner")
+	local BreakServer = Instance.new("TextButton")
+	local UICorner_16 = Instance.new("UICorner")
+	local BrickSpam = Instance.new("TextButton")
+	local UICorner_17 = Instance.new("UICorner")
+	local CarSpawner = Instance.new("TextButton")
+	local UICorner_18 = Instance.new("UICorner")
+	local BunnyEars = Instance.new("TextButton")
+	local UICorner_19 = Instance.new("UICorner")
+	local BtoolsFE = Instance.new("TextButton")
+	local UICorner_20 = Instance.new("UICorner")
+	local MoreScripts = Instance.new("TextButton")
+	local UICorner_21 = Instance.new("UICorner")
+
+	-- Properties
+
+	PcscriptPage2.Name = "Pc script Page 2"
+	PcscriptPage2.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	PcscriptPage2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+	FrameOfIt.Name = "Frame Of It"
+	FrameOfIt.Parent = PcscriptPage2
+	FrameOfIt.BackgroundColor3 = Color3.new(0.294118, 0.290196, 0.290196)
+	FrameOfIt.BorderColor3 = Color3.new(0, 0, 0)
+	FrameOfIt.BorderSizePixel = 0
+	FrameOfIt.Position = UDim2.new(0.189795166, 0, 0.176654443, 0)
+	FrameOfIt.Size = UDim2.new(0, 949, 0, 494)
+
+	Guis.Name = "Guis"
+	Guis.Parent = FrameOfIt
+
+	TextLabel.Parent = Guis
+	TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+	TextLabel.BackgroundTransparency = 12
+	TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+	TextLabel.BorderSizePixel = 0
+	TextLabel.Position = UDim2.new(-0.0990515053, 0, -0.0141700404, 0)
+	TextLabel.Size = UDim2.new(0, 351, 0, 51)
+	TextLabel.Font = Enum.Font.SourceSansBold
+	TextLabel.Text = "Page 2"
+	TextLabel.TextColor3 = Color3.new(0.0901961, 1, 0.0901961)
+	TextLabel.TextScaled = true
+	TextLabel.TextSize = 14
+	TextLabel.TextWrapped = true
+
+	IconNONMASKED.Name = "Icon (NON MASKED)"
+	IconNONMASKED.Parent = Guis
+	IconNONMASKED.BackgroundColor3 = Color3.new(1, 1, 1)
+	IconNONMASKED.BorderColor3 = Color3.new(0, 0, 0)
+	IconNONMASKED.BorderSizePixel = 0
+	IconNONMASKED.Position = UDim2.new(0.939412355, 0, 0.0508994907, 0)
+	IconNONMASKED.Size = UDim2.new(0, 57, 0, 53)
+	IconNONMASKED.Image = "http://www.roblox.com/asset/?id=17844316818"
+
+	SomeCornerThing.Name = "Some Corner Thing"
+	SomeCornerThing.Parent = IconNONMASKED
+	SomeCornerThing.CornerRadius = UDim.new(4, 0)
+
+	UICorner.Parent = FrameOfIt
+	UICorner.CornerRadius = UDim.new(0.100000001, 0)
+
+	Dividers.Name = "Dividers"
+	Dividers.Parent = FrameOfIt
+
+	Frame.Parent = Dividers
+	Frame.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+	Frame.BorderColor3 = Color3.new(0, 0, 0)
+	Frame.BorderSizePixel = 0
+	Frame.Position = UDim2.new(0, 0, 0.576846302, 0)
+	Frame.Size = UDim2.new(0, 949, 0, 1)
+
+	Frame_2.Parent = Dividers
+	Frame_2.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+	Frame_2.BorderColor3 = Color3.new(0, 0, 0)
+	Frame_2.BorderSizePixel = 0
+	Frame_2.Position = UDim2.new(0, 0, 0.790419102, 0)
+	Frame_2.Size = UDim2.new(0, 949, 0, -1)
+
+	Frame_3.Parent = Dividers
+	Frame_3.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+	Frame_3.BorderColor3 = Color3.new(0, 0, 0)
+	Frame_3.BorderSizePixel = 0
+	Frame_3.Position = UDim2.new(0.23349753, 0, 0.998312354, 0)
+	Frame_3.Size = UDim2.new(0, 1, 0, -449)
+
+	Frame_4.Parent = Dividers
+	Frame_4.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+	Frame_4.BorderColor3 = Color3.new(0, 0, 0)
+	Frame_4.BorderSizePixel = 0
+	Frame_4.Position = UDim2.new(0.439408869, 0, 0.998312354, 0)
+	Frame_4.Size = UDim2.new(0, -1, 0, -449)
+
+	Frame_5.Parent = Dividers
+	Frame_5.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+	Frame_5.BorderColor3 = Color3.new(0, 0, 0)
+	Frame_5.BorderSizePixel = 0
+	Frame_5.Position = UDim2.new(0.650246322, 0, 0.998312354, 0)
+	Frame_5.Size = UDim2.new(0, -1, 0, -449)
+
+	Frame_6.Parent = Dividers
+	Frame_6.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+	Frame_6.BorderColor3 = Color3.new(0, 0, 0)
+	Frame_6.BorderSizePixel = 0
+	Frame_6.Position = UDim2.new(0.824630558, 0, 0.998312354, 0)
+	Frame_6.Size = UDim2.new(0, 1, 0, -449)
+
+	Frame_7.Parent = Dividers
+	Frame_7.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+	Frame_7.BorderColor3 = Color3.new(0, 0, 0)
+	Frame_7.BorderSizePixel = 0
+	Frame_7.Position = UDim2.new(0, 0, 0.367265463, 0)
+	Frame_7.Size = UDim2.new(0, 949, 0, 1)
+
+	Scripts.Name = "Scripts"
+	Scripts.Parent = FrameOfIt
+
+	BalkusGui.Name = "Balkus Gui"
+	BalkusGui.Parent = Scripts
+	BalkusGui.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+	BalkusGui.BorderColor3 = Color3.new(0, 0, 0)
+	BalkusGui.BorderSizePixel = 0
+	BalkusGui.Position = UDim2.new(0.0196363088, 0, 0.19611831, 0)
+	BalkusGui.Size = UDim2.new(0, 182, 0, 56)
+	BalkusGui.Font = Enum.Font.SourceSans
+	BalkusGui.Text = "Balkus Gui"
+	BalkusGui.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+	BalkusGui.TextScaled = true
+	BalkusGui.TextSize = 14
+	BalkusGui.TextStrokeTransparency = 0
+	BalkusGui.TextWrapped = true
+	--[[
+
+		Gui2Lua™
+		10zOfficial
+		Version 1.0.0
+
+]]
+
+
+-- Instances
+
+local PcscriptPage2 = Instance.new("ScreenGui")
+local FrameOfIt = Instance.new("Frame")
+local Guis = Instance.new("Folder")
+local TextLabel = Instance.new("TextLabel")
+local IconNONMASKED = Instance.new("ImageButton")
+local SomeCornerThing = Instance.new("UICorner")
+local UICorner = Instance.new("UICorner")
+local Dividers = Instance.new("Folder")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local Frame_3 = Instance.new("Frame")
+local Frame_4 = Instance.new("Frame")
+local Frame_5 = Instance.new("Frame")
+local Frame_6 = Instance.new("Frame")
+local Frame_7 = Instance.new("Frame")
+local Scripts = Instance.new("Folder")
+local BalkusGui = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local BarrelRoll = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local BecomeAFakeSimon = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local BecomeAFakeBarista = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local BlackChat = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Blackhole = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Blink = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local BlockHats = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Block = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local BlockHead = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local BombVest = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local BowDown = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local BoxFarmGuiPressN = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local BreakCharacter = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local BreakServer = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local BrickSpam = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local CarSpawner = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local BunnyEars = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local BtoolsFE = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local MoreScripts = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+
+-- Properties
+
+PcscriptPage2.Name = "Pc script Page 2"
+PcscriptPage2.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+PcscriptPage2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+FrameOfIt.Name = "Frame Of It"
+FrameOfIt.Parent = PcscriptPage2
+FrameOfIt.BackgroundColor3 = Color3.new(0.294118, 0.290196, 0.290196)
+FrameOfIt.BorderColor3 = Color3.new(0, 0, 0)
+FrameOfIt.BorderSizePixel = 0
+FrameOfIt.Position = UDim2.new(0.189795166, 0, 0.176654443, 0)
+FrameOfIt.Size = UDim2.new(0, 949, 0, 494)
+
+Guis.Name = "Guis"
+Guis.Parent = FrameOfIt
+
+TextLabel.Parent = Guis
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 12
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(-0.0990515053, 0, -0.0141700404, 0)
+TextLabel.Size = UDim2.new(0, 351, 0, 51)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Page 2"
+TextLabel.TextColor3 = Color3.new(0.0901961, 1, 0.0901961)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14
+TextLabel.TextWrapped = true
+
+IconNONMASKED.Name = "Icon (NON MASKED)"
+IconNONMASKED.Parent = Guis
+IconNONMASKED.BackgroundColor3 = Color3.new(1, 1, 1)
+IconNONMASKED.BorderColor3 = Color3.new(0, 0, 0)
+IconNONMASKED.BorderSizePixel = 0
+IconNONMASKED.Position = UDim2.new(0.939412355, 0, 0.0508994907, 0)
+IconNONMASKED.Size = UDim2.new(0, 57, 0, 53)
+IconNONMASKED.Image = "http://www.roblox.com/asset/?id=17844316818"
+
+SomeCornerThing.Name = "Some Corner Thing"
+SomeCornerThing.Parent = IconNONMASKED
+SomeCornerThing.CornerRadius = UDim.new(4, 0)
+
+UICorner.Parent = FrameOfIt
+UICorner.CornerRadius = UDim.new(0.100000001, 0)
+
+Dividers.Name = "Dividers"
+Dividers.Parent = FrameOfIt
+
+Frame.Parent = Dividers
+Frame.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame.BorderColor3 = Color3.new(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 0.576846302, 0)
+Frame.Size = UDim2.new(0, 949, 0, 1)
+
+Frame_2.Parent = Dividers
+Frame_2.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame_2.BorderColor3 = Color3.new(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, 0.790419102, 0)
+Frame_2.Size = UDim2.new(0, 949, 0, -1)
+
+Frame_3.Parent = Dividers
+Frame_3.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame_3.BorderColor3 = Color3.new(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.23349753, 0, 0.998312354, 0)
+Frame_3.Size = UDim2.new(0, 1, 0, -449)
+
+Frame_4.Parent = Dividers
+Frame_4.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame_4.BorderColor3 = Color3.new(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0.439408869, 0, 0.998312354, 0)
+Frame_4.Size = UDim2.new(0, -1, 0, -449)
+
+Frame_5.Parent = Dividers
+Frame_5.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame_5.BorderColor3 = Color3.new(0, 0, 0)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0.650246322, 0, 0.998312354, 0)
+Frame_5.Size = UDim2.new(0, -1, 0, -449)
+
+Frame_6.Parent = Dividers
+Frame_6.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame_6.BorderColor3 = Color3.new(0, 0, 0)
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(0.824630558, 0, 0.998312354, 0)
+Frame_6.Size = UDim2.new(0, 1, 0, -449)
+
+Frame_7.Parent = Dividers
+Frame_7.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame_7.BorderColor3 = Color3.new(0, 0, 0)
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(0, 0, 0.367265463, 0)
+Frame_7.Size = UDim2.new(0, 949, 0, 1)
+
+Scripts.Name = "Scripts"
+Scripts.Parent = FrameOfIt
+
+BalkusGui.Name = "Balkus Gui"
+BalkusGui.Parent = Scripts
+BalkusGui.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+BalkusGui.BorderColor3 = Color3.new(0, 0, 0)
+BalkusGui.BorderSizePixel = 0
+BalkusGui.Position = UDim2.new(0.0196363088, 0, 0.19611831, 0)
+BalkusGui.Size = UDim2.new(0, 182, 0, 56)
+BalkusGui.Font = Enum.Font.SourceSans
+BalkusGui.Text = "Balkus Gui"
+BalkusGui.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+BalkusGui.TextScaled = true
+BalkusGui.TextSize = 14
+BalkusGui.TextStrokeTransparency = 0
+BalkusGui.TextWrapped = true
+
+UICorner_2.Parent = BalkusGui
+
+BarrelRoll.Name = "Barrel Roll"
+BarrelRoll.Parent = Scripts
+BarrelRoll.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+BarrelRoll.BorderColor3 = Color3.new(0, 0, 0)
+BarrelRoll.BorderSizePixel = 0
+BarrelRoll.Position = UDim2.new(0.0196363088, 0, 0.420814663, 0)
+BarrelRoll.Size = UDim2.new(0, 182, 0, 56)
+BarrelRoll.Font = Enum.Font.SourceSans
+BarrelRoll.Text = "Barrel Roll"
+BarrelRoll.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+BarrelRoll.TextScaled = true
+BarrelRoll.TextSize = 14
+BarrelRoll.TextStrokeTransparency = 0
+BarrelRoll.TextWrapped = true
+
+UICorner_3.Parent = BarrelRoll
+
+BecomeAFakeSimon.Name = "Become A Fake Simon"
+BecomeAFakeSimon.Parent = Scripts
+BecomeAFakeSimon.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+BecomeAFakeSimon.BorderColor3 = Color3.new(0, 0, 0)
+BecomeAFakeSimon.BorderSizePixel = 0
+BecomeAFakeSimon.Position = UDim2.new(0.0196363088, 0, 0.625268102, 0)
+BecomeAFakeSimon.Size = UDim2.new(0, 182, 0, 56)
+BecomeAFakeSimon.Font = Enum.Font.SourceSans
+BecomeAFakeSimon.Text = "Become A Fake Simon"
+BecomeAFakeSimon.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+BecomeAFakeSimon.TextScaled = true
+BecomeAFakeSimon.TextSize = 14
+BecomeAFakeSimon.TextStrokeTransparency = 0
+BecomeAFakeSimon.TextWrapped = true
+
+UICorner_4.Parent = BecomeAFakeSimon
+
+BecomeAFakeBarista.Name = "Become A Fake Barista"
+BecomeAFakeBarista.Parent = Scripts
+BecomeAFakeBarista.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+BecomeAFakeBarista.BorderColor3 = Color3.new(0, 0, 0)
+BecomeAFakeBarista.BorderSizePixel = 0
+BecomeAFakeBarista.Position = UDim2.new(0.0196363088, 0, 0.835794449, 0)
+BecomeAFakeBarista.Size = UDim2.new(0, 182, 0, 56)
+BecomeAFakeBarista.Font = Enum.Font.SourceSans
+BecomeAFakeBarista.Text = "Become A Fake Barista"
+BecomeAFakeBarista.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+BecomeAFakeBarista.TextScaled = true
+BecomeAFakeBarista.TextSize = 14
+BecomeAFakeBarista.TextStrokeTransparency = 0
+BecomeAFakeBarista.TextWrapped = true
+
+UICorner_5.Parent = BecomeAFakeBarista
+
+BlackChat.Name = "Black Chat"
+BlackChat.Parent = Scripts
+BlackChat.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+BlackChat.BorderColor3 = Color3.new(0, 0, 0)
+BlackChat.BorderSizePixel = 0
+BlackChat.Position = UDim2.new(0.246190608, 0, 0.19611831, 0)
+BlackChat.Size = UDim2.new(0, 166, 0, 56)
+BlackChat.Font = Enum.Font.SourceSans
+BlackChat.Text = "Black Chat"
+BlackChat.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+BlackChat.TextScaled = true
+BlackChat.TextSize = 14
+BlackChat.TextStrokeTransparency = 0
+BlackChat.TextWrapped = true
+
+UICorner_6.Parent = BlackChat
+
+Blackhole.Name = "Blackhole"
+Blackhole.Parent = Scripts
+Blackhole.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+Blackhole.BorderColor3 = Color3.new(0, 0, 0)
+Blackhole.BorderSizePixel = 0
+Blackhole.Position = UDim2.new(0.246190608, 0, 0.443081886, 0)
+Blackhole.Size = UDim2.new(0, 166, 0, 56)
+Blackhole.Font = Enum.Font.SourceSans
+Blackhole.Text = "Blackhole"
+Blackhole.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+Blackhole.TextScaled = true
+Blackhole.TextSize = 14
+Blackhole.TextStrokeTransparency = 0
+Blackhole.TextWrapped = true
+
+UICorner_7.Parent = Blackhole
+
+Blink.Name = "Blink"
+Blink.Parent = Scripts
+Blink.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+Blink.BorderColor3 = Color3.new(0, 0, 0)
+Blink.BorderSizePixel = 0
+Blink.Position = UDim2.new(0.246190608, 0, 0.625268102, 0)
+Blink.Size = UDim2.new(0, 166, 0, 56)
+Blink.Font = Enum.Font.SourceSans
+Blink.Text = "Blink"
+Blink.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+Blink.TextScaled = true
+Blink.TextSize = 14
+Blink.TextStrokeTransparency = 0
+Blink.TextWrapped = true
+
+UICorner_8.Parent = Blink
+
+BlockHats.Name = "Block Hats"
+BlockHats.Parent = Scripts
+BlockHats.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+BlockHats.BorderColor3 = Color3.new(0, 0, 0)
+BlockHats.BorderSizePixel = 0
+BlockHats.Position = UDim2.new(0.246190608, 0, 0.835794449, 0)
+BlockHats.Size = UDim2.new(0, 166, 0, 56)
+BlockHats.Font = Enum.Font.SourceSans
+BlockHats.Text = "Block Hats"
+BlockHats.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+BlockHats.TextScaled = true
+BlockHats.TextSize = 14
+BlockHats.TextStrokeTransparency = 0
+BlockHats.TextWrapped = true
+
+UICorner_9.Parent = BlockHats
+
+Block.Name = "Block"
+Block.Parent = Scripts
+Block.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+Block.BorderColor3 = Color3.new(0, 0, 0)
+Block.BorderSizePixel = 0
+Block.Position = UDim2.new(0.453777552, 0, 0.420814663, 0)
+Block.Size = UDim2.new(0, 166, 0, 56)
+Block.Font = Enum.Font.SourceSans
+Block.Text = "Block"
+Block.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+Block.TextScaled = true
+Block.TextSize = 14
+Block.TextStrokeTransparency = 0
+Block.TextWrapped = true
+
+UICorner_10.Parent = Block
+
+BlockHead.Name = "Block Head"
+BlockHead.Parent = Scripts
+BlockHead.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+BlockHead.BorderColor3 = Color3.new(0, 0, 0)
+BlockHead.BorderSizePixel = 0
+BlockHead.Position = UDim2.new(0.453777552, 0, 0.19611831, 0)
+BlockHead.Size = UDim2.new(0, 166, 0, 56)
+BlockHead.Font = Enum.Font.SourceSans
+BlockHead.Text = "Block Head"
+BlockHead.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+BlockHead.TextScaled = true
+BlockHead.TextSize = 14
+BlockHead.TextStrokeTransparency = 0
+BlockHead.TextWrapped = true
+
+UICorner_11.Parent = BlockHead
+
+BombVest.Name = "Bomb Vest"
+BombVest.Parent = Scripts
+BombVest.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+BombVest.BorderColor3 = Color3.new(0, 0, 0)
+BombVest.BorderSizePixel = 0
+BombVest.Position = UDim2.new(0.453777552, 0, 0.625268102, 0)
+BombVest.Size = UDim2.new(0, 166, 0, 56)
+BombVest.Font = Enum.Font.SourceSans
+BombVest.Text = "Bomb Vest"
+BombVest.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+BombVest.TextScaled = true
+BombVest.TextSize = 14
+BombVest.TextStrokeTransparency = 0
+BombVest.TextWrapped = true
+
+UICorner_12.Parent = BombVest
+
+BowDown.Name = "Bow Down"
+BowDown.Parent = Scripts
+BowDown.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+BowDown.BorderColor3 = Color3.new(0, 0, 0)
+BowDown.BorderSizePixel = 0
+BowDown.Position = UDim2.new(0.453777552, 0, 0.835794449, 0)
+BowDown.Size = UDim2.new(0, 166, 0, 56)
+BowDown.Font = Enum.Font.SourceSans
+BowDown.Text = "Bow Down"
+BowDown.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+BowDown.TextScaled = true
+BowDown.TextSize = 14
+BowDown.TextStrokeTransparency = 0
+BowDown.TextWrapped = true
+
+UICorner_13.Parent = BowDown
+
+BoxFarmGuiPressN.Name = "Box Farm Gui [Press N]"
+BoxFarmGuiPressN.Parent = Scripts
+BoxFarmGuiPressN.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+BoxFarmGuiPressN.BorderColor3 = Color3.new(0, 0, 0)
+BoxFarmGuiPressN.BorderSizePixel = 0
+BoxFarmGuiPressN.Position = UDim2.new(0.666633189, 0, 0.19611831, 0)
+BoxFarmGuiPressN.Size = UDim2.new(0, 137, 0, 56)
+BoxFarmGuiPressN.Font = Enum.Font.SourceSans
+BoxFarmGuiPressN.Text = "Box Farm Gui [Press N]"
+BoxFarmGuiPressN.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+BoxFarmGuiPressN.TextScaled = true
+BoxFarmGuiPressN.TextSize = 14
+BoxFarmGuiPressN.TextStrokeTransparency = 0
+BoxFarmGuiPressN.TextWrapped = true
+
+UICorner_14.Parent = BoxFarmGuiPressN
+
+BreakCharacter.Name = "Break Character"
+BreakCharacter.Parent = Scripts
+BreakCharacter.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+BreakCharacter.BorderColor3 = Color3.new(0, 0, 0)
+BreakCharacter.BorderSizePixel = 0
+BreakCharacter.Position = UDim2.new(0.666633189, 0, 0.420814663, 0)
+BreakCharacter.Size = UDim2.new(0, 137, 0, 56)
+BreakCharacter.Font = Enum.Font.SourceSans
+BreakCharacter.Text = "Break Character"
+BreakCharacter.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+BreakCharacter.TextScaled = true
+BreakCharacter.TextSize = 14
+BreakCharacter.TextStrokeTransparency = 0
+BreakCharacter.TextWrapped = true
+
+UICorner_15.Parent = BreakCharacter
+
+BreakServer.Name = "Break Server"
+BreakServer.Parent = Scripts
+BreakServer.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+BreakServer.BorderColor3 = Color3.new(0, 0, 0)
+BreakServer.BorderSizePixel = 0
+BreakServer.Position = UDim2.new(0.666633189, 0, 0.625268102, 0)
+BreakServer.Size = UDim2.new(0, 137, 0, 56)
+BreakServer.Font = Enum.Font.SourceSans
+BreakServer.Text = "Break Server"
+BreakServer.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+BreakServer.TextScaled = true
+BreakServer.TextSize = 14
+BreakServer.TextStrokeTransparency = 0
+BreakServer.TextWrapped = true
+
+UICorner_16.Parent = BreakServer
+
+BrickSpam.Name = "Brick Spam"
+BrickSpam.Parent = Scripts
+BrickSpam.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+BrickSpam.BorderColor3 = Color3.new(0, 0, 0)
+BrickSpam.BorderSizePixel = 0
+BrickSpam.Position = UDim2.new(0.666633189, 0, 0.835794449, 0)
+BrickSpam.Size = UDim2.new(0, 137, 0, 56)
+BrickSpam.Font = Enum.Font.SourceSans
+BrickSpam.Text = "Brick Spam"
+BrickSpam.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+BrickSpam.TextScaled = true
+BrickSpam.TextSize = 14
+BrickSpam.TextStrokeTransparency = 0
+BrickSpam.TextWrapped = true
+
+UICorner_17.Parent = BrickSpam
+
+CarSpawner.Name = "Car Spawner"
+CarSpawner.Parent = Scripts
+CarSpawner.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+CarSpawner.BorderColor3 = Color3.new(0, 0, 0)
+CarSpawner.BorderSizePixel = 0
+CarSpawner.Position = UDim2.new(0.840500414, 0, 0.625268102, 0)
+CarSpawner.Size = UDim2.new(0, 137, 0, 56)
+CarSpawner.Font = Enum.Font.SourceSans
+CarSpawner.Text = "Car Spawner"
+CarSpawner.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+CarSpawner.TextScaled = true
+CarSpawner.TextSize = 14
+CarSpawner.TextStrokeTransparency = 0
+CarSpawner.TextWrapped = true
+
+UICorner_18.Parent = CarSpawner
+
+BunnyEars.Name = "Bunny Ears"
+BunnyEars.Parent = Scripts
+BunnyEars.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+BunnyEars.BorderColor3 = Color3.new(0, 0, 0)
+BunnyEars.BorderSizePixel = 0
+BunnyEars.Position = UDim2.new(0.840500414, 0, 0.420814663, 0)
+BunnyEars.Size = UDim2.new(0, 137, 0, 56)
+BunnyEars.Font = Enum.Font.SourceSans
+BunnyEars.Text = "Bunny Ears"
+BunnyEars.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+BunnyEars.TextScaled = true
+BunnyEars.TextSize = 14
+BunnyEars.TextStrokeTransparency = 0
+BunnyEars.TextWrapped = true
+
+UICorner_19.Parent = BunnyEars
+
+BtoolsFE.Name = "Btools (FE)"
+BtoolsFE.Parent = Scripts
+BtoolsFE.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+BtoolsFE.BorderColor3 = Color3.new(0, 0, 0)
+BtoolsFE.BorderSizePixel = 0
+BtoolsFE.Position = UDim2.new(0.840500414, 0, 0.19611831, 0)
+BtoolsFE.Size = UDim2.new(0, 137, 0, 56)
+BtoolsFE.Font = Enum.Font.SourceSans
+BtoolsFE.Text = "Btools (FE)"
+BtoolsFE.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+BtoolsFE.TextScaled = true
+BtoolsFE.TextSize = 14
+BtoolsFE.TextStrokeTransparency = 0
+BtoolsFE.TextWrapped = true
+
+UICorner_20.Parent = BtoolsFE
+
+MoreScripts.Name = "More Scripts..."
+MoreScripts.Parent = FrameOfIt
+MoreScripts.BackgroundColor3 = Color3.new(0, 1, 0)
+MoreScripts.BorderColor3 = Color3.new(0, 0, 0)
+MoreScripts.BorderSizePixel = 0
+MoreScripts.Position = UDim2.new(0.840500414, 0, 0.813765168, 0)
+MoreScripts.Size = UDim2.new(0, 136, 0, 66)
+MoreScripts.Font = Enum.Font.Unknown
+MoreScripts.Text = "More Scripts.."
+MoreScripts.TextColor3 = Color3.new(0.117647, 0.541176, 0.0705882)
+MoreScripts.TextScaled = true
+MoreScripts.TextSize = 14
+MoreScripts.TextWrapped = true
+
+UICorner_21.Parent = MoreScripts
+
+-- Scripts
+
+local function HEYD_fake_script() -- FrameOfIt.Dragg 
+	local script = Instance.new('LocalScript', FrameOfIt)
+
+	local UserInputService = game:GetService("UserInputService")
+	local frame = script.Parent
+	local dragging = false
+	local dragStart = nil
+	local startPos = nil
+	
+	local function startDrag(input)
+		dragging = true
+		dragStart = input.Position
+		startPos = frame.Position
+	end
+	
+	local function updateDrag(input)
+		if dragging then
+			local delta = input.Position - dragStart
+			frame.Position = UDim2.new(
+				startPos.X.Scale,
+				startPos.X.Offset + delta.X,
+				startPos.Y.Scale,
+				startPos.Y.Offset + delta.Y
+			)
+		end
+	end
+	
+	local function endDrag()
+		dragging = false
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			startDrag(input)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			updateDrag(input)
+		end
+	end)
+	
+	frame.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			endDrag()
+		end
+	end)
+	
+	
+end
+coroutine.wrap(HEYD_fake_script)()
+local function ICYTXBT_fake_script() -- FrameOfIt.RGB 
+	local script = Instance.new('LocalScript', FrameOfIt)
+
+	
+	local frame = script.Parent
+	
+	local function getRandomColor()
+		local red = math.random(0, 255) / 255
+		local green = math.random(0, 255) / 255
+		local blue = math.random(0, 255) / 255
+		return Color3.new(red, green, blue)
+	end
+	
+	local function lerpColor(color1, color2, alpha)
+		local red = color1.R + (color2.R - color1.R) * alpha
+		local green = color1.G + (color2.G - color1.G) * alpha
+		local blue = color1.B + (color2.B - color1.B) * alpha
+		return Color3.new(red, green, blue)
+	end
+	
+	local function smoothColorChange(duration)
+		local startColor = frame.BackgroundColor3
+		local endColor = getRandomColor()
+		local startTime = tick()
+	
+		while tick() - startTime < duration do
+			local elapsed = tick() - startTime
+			local alpha = elapsed / duration
+			frame.BackgroundColor3 = lerpColor(startColor, endColor, alpha)
+			wait(0.02) 
+		end
+	
+		frame.BackgroundColor3 = endColor
+	end
+	
+	
+	while true do
+		smoothColorChange(5) 
+	end
+	
+end
+coroutine.wrap(ICYTXBT_fake_script)()
+local function KHJZO_fake_script() -- BalkusGui.Rainbow Stroke 
+	local script = Instance.new('LocalScript', BalkusGui)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(KHJZO_fake_script)()
+local function XPNLH_fake_script() -- BarrelRoll.Rainbow Stroke 
+	local script = Instance.new('LocalScript', BarrelRoll)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(XPNLH_fake_script)()
+local function HVELRUG_fake_script() -- BecomeAFakeSimon.Rainbow Stroke 
+	local script = Instance.new('LocalScript', BecomeAFakeSimon)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(HVELRUG_fake_script)()
+local function VAWL_fake_script() -- BecomeAFakeBarista.Rainbow Stroke 
+	local script = Instance.new('LocalScript', BecomeAFakeBarista)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(VAWL_fake_script)()
+local function WJMYAV_fake_script() -- BlackChat.Rainbow Stroke 
+	local script = Instance.new('LocalScript', BlackChat)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(WJMYAV_fake_script)()
+local function MJZB_fake_script() -- Blackhole.Rainbow Stroke 
+	local script = Instance.new('LocalScript', Blackhole)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(MJZB_fake_script)()
+local function EOYI_fake_script() -- Blink.Rainbow Stroke 
+	local script = Instance.new('LocalScript', Blink)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(EOYI_fake_script)()
+local function VSGV_fake_script() -- BlockHats.Rainbow Stroke 
+	local script = Instance.new('LocalScript', BlockHats)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(VSGV_fake_script)()
+local function DVYL_fake_script() -- Block.Rainbow Stroke 
+	local script = Instance.new('LocalScript', Block)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(DVYL_fake_script)()
+local function NYVBIU_fake_script() -- BlockHead.Rainbow Stroke 
+	local script = Instance.new('LocalScript', BlockHead)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(NYVBIU_fake_script)()
+local function GUOU_fake_script() -- BombVest.Rainbow Stroke 
+	local script = Instance.new('LocalScript', BombVest)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(GUOU_fake_script)()
+local function HANMT_fake_script() -- BowDown.Rainbow Stroke 
+	local script = Instance.new('LocalScript', BowDown)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(HANMT_fake_script)()
+local function NUOE_fake_script() -- BoxFarmGuiPressN.Rainbow Stroke 
+	local script = Instance.new('LocalScript', BoxFarmGuiPressN)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(NUOE_fake_script)()
+local function YKNNJF_fake_script() -- BreakCharacter.Rainbow Stroke 
+	local script = Instance.new('LocalScript', BreakCharacter)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(YKNNJF_fake_script)()
+local function HWKAMT_fake_script() -- BreakServer.Rainbow Stroke 
+	local script = Instance.new('LocalScript', BreakServer)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(HWKAMT_fake_script)()
+local function MDUCNPO_fake_script() -- BrickSpam.Rainbow Stroke 
+	local script = Instance.new('LocalScript', BrickSpam)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(MDUCNPO_fake_script)()
+local function RANTZ_fake_script() -- CarSpawner.Rainbow Stroke 
+	local script = Instance.new('LocalScript', CarSpawner)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(RANTZ_fake_script)()
+local function PTTOMTE_fake_script() -- BunnyEars.Rainbow Stroke 
+	local script = Instance.new('LocalScript', BunnyEars)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(PTTOMTE_fake_script)()
+local function KJNWBYN_fake_script() -- BtoolsFE.Rainbow Stroke 
+	local script = Instance.new('LocalScript', BtoolsFE)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(KJNWBYN_fake_script)()
+
+
+	UICorner_2.Parent = BalkusGui
+
+	BarrelRoll.Name = "Barrel Roll"
+	BarrelRoll.Parent = Scripts
+	BarrelRoll.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+	BarrelRoll.BorderColor3 = Color3.new(0, 0, 0)
+	BarrelRoll.BorderSizePixel = 0
+	BarrelRoll.Position = UDim2.new(0.0196363088, 0, 0.420814663, 0)
+	BarrelRoll.Size = UDim2.new(0, 182, 0, 56)
+	BarrelRoll.Font = Enum.Font.SourceSans
+	BarrelRoll.Text = "Barrel Roll"
+	BarrelRoll.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+	BarrelRoll.TextScaled = true
+	BarrelRoll.TextSize = 14
+	BarrelRoll.TextStrokeTransparency = 0
+	BarrelRoll.TextWrapped = true
+	BarrelRoll.MouseButton1Down:connect(function()
+		AnimationId = "136801964"
+		local Anim = Instance.new("Animation")
+		Anim.AnimationId = "rbxassetid://"..AnimationId
+		local k = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+		k:Play()
+		k:AdjustSpeed(1)
+	end)
+
+	UICorner_3.Parent = BarrelRoll
+
+	BecomeAFakeSimon.Name = "Become A Fake Simon"
+	BecomeAFakeSimon.Parent = Scripts
+	BecomeAFakeSimon.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+	BecomeAFakeSimon.BorderColor3 = Color3.new(0, 0, 0)
+	BecomeAFakeSimon.BorderSizePixel = 0
+	BecomeAFakeSimon.Position = UDim2.new(0.0196363088, 0, 0.625268102, 0)
+	BecomeAFakeSimon.Size = UDim2.new(0, 182, 0, 56)
+	BecomeAFakeSimon.Font = Enum.Font.SourceSans
+	BecomeAFakeSimon.Text = "Become A Fake Simon"
+	BecomeAFakeSimon.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+	BecomeAFakeSimon.TextScaled = true
+	BecomeAFakeSimon.TextSize = 14
+	BecomeAFakeSimon.TextStrokeTransparency = 0
+	BecomeAFakeSimon.TextWrapped = true
+    BecomeAFakeSimon.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-70,40,-15)
+	end)
+
+	UICorner_4.Parent = BecomeAFakeSimon
+
+	BecomeAFakeBarista.Name = "Become A Fake Barista"
+	BecomeAFakeBarista.Parent = Scripts
+	BecomeAFakeBarista.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+	BecomeAFakeBarista.BorderColor3 = Color3.new(0, 0, 0)
+	BecomeAFakeBarista.BorderSizePixel = 0
+	BecomeAFakeBarista.Position = UDim2.new(0.0196363088, 0, 0.835794449, 0)
+	BecomeAFakeBarista.Size = UDim2.new(0, 182, 0, 56)
+	BecomeAFakeBarista.Font = Enum.Font.SourceSans
+	BecomeAFakeBarista.Text = "Become A Fake Barista"
+	BecomeAFakeBarista.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+	BecomeAFakeBarista.TextScaled = true
+	BecomeAFakeBarista.TextSize = 14
+	BecomeAFakeBarista.TextStrokeTransparency = 0
+	BecomeAFakeBarista.TextWrapped = true
+	BecomeAFakeBarista.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10,25,-20)
+		local noclip = true char = game.Players.LocalPlayer.Character while true do if noclip == true then for _,v in pairs(char:children()) do pcall(function() if v.className == "Part" then v.CanCollide = false elseif v.ClassName == "Model" then v.Head.CanCollide = false end end) end end game:service("RunService").Stepped:wait() end
+	end)
+	UICorner_5.Parent = BecomeAFakeBarista
+
+	BlackChat.Name = "Black Chat"
+	BlackChat.Parent = Scripts
+	BlackChat.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+	BlackChat.BorderColor3 = Color3.new(0, 0, 0)
+	BlackChat.BorderSizePixel = 0
+	BlackChat.Position = UDim2.new(0.246190608, 0, 0.19611831, 0)
+	BlackChat.Size = UDim2.new(0, 166, 0, 56)
+	BlackChat.Font = Enum.Font.SourceSans
+	BlackChat.Text = "Black Chat"
+	BlackChat.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+	BlackChat.TextScaled = true
+	BlackChat.TextSize = 14
+	BlackChat.TextStrokeTransparency = 0
+	BlackChat.TextWrapped = true
+	BlackChat.MouseButton1Down:connect(function()
+		--Made by N3xul.
+		local color = Color3.new(0,0,0) --Color you want here!
+		local Event = game:GetService("ReplicatedStorage").ClientRequests.UpdateChatColorEvent
+		Event:FireServer(color)
+	end)
+
+	UICorner_6.Parent = BlackChat
+
+	Blackhole.Name = "Blackhole"
+	Blackhole.Parent = Scripts
+	Blackhole.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+	Blackhole.BorderColor3 = Color3.new(0, 0, 0)
+	Blackhole.BorderSizePixel = 0
+	Blackhole.Position = UDim2.new(0.246190608, 0, 0.443081886, 0)
+	Blackhole.Size = UDim2.new(0, 166, 0, 56)
+	Blackhole.Font = Enum.Font.SourceSans
+	Blackhole.Text = "Blackhole"
+	Blackhole.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+	Blackhole.TextScaled = true
+	Blackhole.TextSize = 14
+	Blackhole.TextStrokeTransparency = 0
+	Blackhole.TextWrapped = true
+    Blackhole.MouseButton1Down:connect(function()
+		for i,v in pairs(game.Players:GetChildren()) do
+			local Target = v.Name
+			local R_C = Instance.new("BallSocketConstraint")
+			R_C.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+			local hah = Instance.new("Attachment")
+			hah.Parent = game.Players[Target].Character.HumanoidRootPart
+			local hah2 = Instance.new("Attachment")
+			hah2.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+			R_C.Attachment0 = hah
+			R_C.Attachment1 = hah2
+			R_C.Visible = false
+			wait(0.1)
+		end
+	end)
+
+	UICorner_7.Parent = Blackhole
+
+	Blink.Name = "Blink"
+	Blink.Parent = Scripts
+	Blink.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+	Blink.BorderColor3 = Color3.new(0, 0, 0)
+	Blink.BorderSizePixel = 0
+	Blink.Position = UDim2.new(0.246190608, 0, 0.625268102, 0)
+	Blink.Size = UDim2.new(0, 166, 0, 56)
+	Blink.Font = Enum.Font.SourceSans
+	Blink.Text = "Blink"
+	Blink.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+	Blink.TextScaled = true
+	Blink.TextSize = 14
+	Blink.TextStrokeTransparency = 0
+	Blink.TextWrapped = true
+	Blink.MouseButton1Down:connect(function()
+		-- made by xFunnieuss
+		-- Script (do not modify)
+		local ScreenGui = Instance.new("ScreenGui")
+		local Frame = Instance.new("Frame")
+		local TextLabel = Instance.new("TextLabel")
+		local Off = Instance.new("TextButton")
+		local On = Instance.new("TextButton")
+		ScreenGui.Parent = game:GetService('CoreGui')
+		ScreenGui.Name = "blinkgui"
+		Frame.Parent = ScreenGui
+		Frame.Active = true
+		Frame.BackgroundColor3 = Color3.new(0.027451, 0.823529, 1)
+		Frame.BorderSizePixel = 5
+		Frame.Draggable = true
+		Frame.Position = UDim2.new(0.0222392641, 0, 0.790732443, 0)
+		Frame.Size = UDim2.new(0, 343, 0, 106)
+		TextLabel.Parent = Frame
+		TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+		TextLabel.BackgroundTransparency = 1
+		TextLabel.Position = UDim2.new(0.183673471, 0, 0, 0)
+		TextLabel.Size = UDim2.new(0, 217, 0, 40)
+		TextLabel.Font = Enum.Font.Code
+		TextLabel.Text = "FE Blink GUI By xFunnieuss"
+		TextLabel.TextSize = 16
+		Off.Parent = Frame
+		Off.BackgroundColor3 = Color3.new(1, 1, 1)
+		Off.BackgroundTransparency = 1
+		Off.Position = UDim2.new(0.548104942, 0, 0.377358496, 0)
+		Off.Size = UDim2.new(0, 138, 0, 49)
+		Off.Font = Enum.Font.Code
+		Off.Text = "Off"
+		Off.TextSize = 20
+		On.Parent = Frame
+		On.BackgroundColor3 = Color3.new(1, 1, 1)
+		On.BackgroundTransparency = 1
+		On.Position = UDim2.new(0.0612244904, 0, 0.377358496, 0)
+		On.Size = UDim2.new(0, 134, 0, 49)
+		On.Font = Enum.Font.Code
+		On.Text = "On"
+		On.TextSize = 20
+		On.MouseButton1Down:connect(function()
+			local fat = Instance.new'Animation'
+			fat.AnimationId = 'rbxassetid://218504594'
+			game:GetService('Players').LocalPlayer.Character:FindFirstChildOfClass'Humanoid':LoadAnimation(fat):Play(0,0,0)
+			game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Anchored = true
+			fat:Destroy()
+			game:GetService('StarterGui'):SetCore("SendNotification", {Title = "Blink GUI Notification", Text = "Blink Is On, Press OFF to return to normal!"})
+		end)
+		Off.MouseButton1Down:connect(function()
+			game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Anchored = false
+			game:GetService('StarterGui'):SetCore("SendNotification", {Title = "Blink GUI Notification", Text = "Blink Is Off, You have returned back to normal"})
+		end)
+	end)
+
+	UICorner_8.Parent = Blink
+
+	BlockHats.Name = "Block Hats"
+	BlockHats.Parent = Scripts
+	BlockHats.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+	BlockHats.BorderColor3 = Color3.new(0, 0, 0)
+	BlockHats.BorderSizePixel = 0
+	BlockHats.Position = UDim2.new(0.246190608, 0, 0.835794449, 0)
+	BlockHats.Size = UDim2.new(0, 166, 0, 56)
+	BlockHats.Font = Enum.Font.SourceSans
+	BlockHats.Text = "Block Hats"
+	BlockHats.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+	BlockHats.TextScaled = true
+	BlockHats.TextSize = 14
+	BlockHats.TextStrokeTransparency = 0
+	BlockHats.TextWrapped = true
+	BlockHats.MouseButton1Down:connect(function()
+		for _,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+			if (v:IsA("Accessory")) then
+				v.Handle.Mesh:remove()
+			end
+		end
+	end)
+
+	UICorner_9.Parent = BlockHats
+
+	Block.Name = "Block"
+	Block.Parent = Scripts
+	Block.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+	Block.BorderColor3 = Color3.new(0, 0, 0)
+	Block.BorderSizePixel = 0
+	Block.Position = UDim2.new(0.453777552, 0, 0.420814663, 0)
+	Block.Size = UDim2.new(0, 166, 0, 56)
+	Block.Font = Enum.Font.SourceSans
+	Block.Text = "Block"
+	Block.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+	Block.TextScaled = true
+	Block.TextSize = 14
+	Block.TextStrokeTransparency = 0
+	Block.TextWrapped = true
+	Block.MouseButton1Down:connect(function()
+		loadstring(game:GetObjects("rbxassetid://1427275040"[1].Source)()
+	end)
+
+	UICorner_10.Parent = Block
+
+	BlockHead.Name = "Block Head"
+	BlockHead.Parent = Scripts
+	BlockHead.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+	BlockHead.BorderColor3 = Color3.new(0, 0, 0)
+	BlockHead.BorderSizePixel = 0
+	BlockHead.Position = UDim2.new(0.453777552, 0, 0.19611831, 0)
+	BlockHead.Size = UDim2.new(0, 166, 0, 56)
+	BlockHead.Font = Enum.Font.SourceSans
+	BlockHead.Text = "Block Head"
+	BlockHead.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+	BlockHead.TextScaled = true
+	BlockHead.TextSize = 14
+	BlockHead.TextStrokeTransparency = 0
+	BlockHead.TextWrapped = true
+    BlockHead.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.Head.Mesh:Remove()
+		for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+			if (v:IsA("Accessory")) then
+				v.Parent = workspace
+			end
+		end
+	end)
+
+	UICorner_11.Parent = BlockHead
+
+	BombVest.Name = "Bomb Vest"
+	BombVest.Parent = Scripts
+	BombVest.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+	BombVest.BorderColor3 = Color3.new(0, 0, 0)
+	BombVest.BorderSizePixel = 0
+	BombVest.Position = UDim2.new(0.453777552, 0, 0.625268102, 0)
+	BombVest.Size = UDim2.new(0, 166, 0, 56)
+	BombVest.Font = Enum.Font.SourceSans
+	BombVest.Text = "Bomb Vest"
+	BombVest.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+	BombVest.TextScaled = true
+	BombVest.TextSize = 14
+	BombVest.TextStrokeTransparency = 0
+	BombVest.TextWrapped = true
+	BombVest.MouseButton1Down:connect(function()
+		--==Made by Infinity==--
+		--==Made by Azurez==--
+
+		game:GetService'ReplicatedStorage'.ITEM_PURCHASE:InvokeServer("gay", "8", "001527622")
+
+		local plr = game.Players.LocalPlayer
+		while not plr.Character do wait() end
+		local character = plr.Character
+
+		local gay = game:GetService("RunService")
+		gay.RenderStepped:connect(function()
+			for _,h in pairs(character:GetChildren()) do
+				if h:IsA("Accoutrement") then
+					h.Handle.LocalTransparencyModifier = 1
+				end
+			end
+		end)
+
+		game:GetService'ReplicatedStorage'.ITEM_PURCHASE:InvokeServer("gay", "11", "445626340")
+	end)
+
+	UICorner_12.Parent = BombVest
+
+	BowDown.Name = "Bow Down"
+	BowDown.Parent = Scripts
+	BowDown.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+	BowDown.BorderColor3 = Color3.new(0, 0, 0)
+	BowDown.BorderSizePixel = 0
+	BowDown.Position = UDim2.new(0.453777552, 0, 0.835794449, 0)
+	BowDown.Size = UDim2.new(0, 166, 0, 56)
+	BowDown.Font = Enum.Font.SourceSans
+	BowDown.Text = "Bow Down"
+	BowDown.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+	BowDown.TextScaled = true
+	BowDown.TextSize = 14
+	BowDown.TextStrokeTransparency = 0
+	BowDown.TextWrapped = true
+	BowDown.MouseButton1Down:connect(function()
+		AnimationId = "204292303"
+		local Anim = Instance.new("Animation")
+		Anim.AnimationId = "rbxassetid://"..AnimationId
+		local k = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+		k:Play()
+		k:AdjustSpeed(1)
+	end)
+
+	UICorner_13.Parent = BowDown
+
+	BoxFarmGuiPressN.Name = "Box Farm Gui [Press N]"
+	BoxFarmGuiPressN.Parent = Scripts
+	BoxFarmGuiPressN.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+	BoxFarmGuiPressN.BorderColor3 = Color3.new(0, 0, 0)
+	BoxFarmGuiPressN.BorderSizePixel = 0
+	BoxFarmGuiPressN.Position = UDim2.new(0.666633189, 0, 0.19611831, 0)
+	BoxFarmGuiPressN.Size = UDim2.new(0, 137, 0, 56)
+	BoxFarmGuiPressN.Font = Enum.Font.SourceSans
+	BoxFarmGuiPressN.Text = "Box Farm Gui [Press N]"
+	BoxFarmGuiPressN.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+	BoxFarmGuiPressN.TextScaled = true
+	BoxFarmGuiPressN.TextSize = 14
+	BoxFarmGuiPressN.TextStrokeTransparency = 0
+	BoxFarmGuiPressN.TextWrapped = true
+	BoxFarmGuiPressN.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("http://polarix.xyz/releases/MHGui.txt",true))()
+	end)
+
+	UICorner_14.Parent = BoxFarmGuiPressN
+
+	BreakCharacter.Name = "Break Character"
+	BreakCharacter.Parent = Scripts
+	BreakCharacter.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+	BreakCharacter.BorderColor3 = Color3.new(0, 0, 0)
+	BreakCharacter.BorderSizePixel = 0
+	BreakCharacter.Position = UDim2.new(0.666633189, 0, 0.420814663, 0)
+	BreakCharacter.Size = UDim2.new(0, 137, 0, 56)
+	BreakCharacter.Font = Enum.Font.SourceSans
+	BreakCharacter.Text = "Break Character"
+	BreakCharacter.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+	BreakCharacter.TextScaled = true
+	BreakCharacter.TextSize = 14
+	BreakCharacter.TextStrokeTransparency = 0
+	BreakCharacter.TextWrapped = true
+	BreakCharacter.MouseButton1Down:connect(function()
+		loadstring(game:GetObjects("rbxassetid://1427263101")[1].Source)()
+	end)
+
+	UICorner_15.Parent = BreakCharacter
+
+	BreakServer.Name = "Break Server"
+	BreakServer.Parent = Scripts
+	BreakServer.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+	BreakServer.BorderColor3 = Color3.new(0, 0, 0)
+	BreakServer.BorderSizePixel = 0
+	BreakServer.Position = UDim2.new(0.666633189, 0, 0.625268102, 0)
+	BreakServer.Size = UDim2.new(0, 137, 0, 56)
+	BreakServer.Font = Enum.Font.SourceSans
+	BreakServer.Text = "Break Server"
+	BreakServer.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+	BreakServer.TextScaled = true
+	BreakServer.TextSize = 14
+	BreakServer.TextStrokeTransparency = 0
+	BreakServer.TextWrapped = true
+	BreakServer.MouseButton1Down:connect(function()
+		--Everyone will die everytime a new game starts!
+		while true do
+			game.Workspace.BasicCommand:FireServer(7, "", 5.5, 1.5, true, "Pizza")
+			wait()
+		end
+	end)
+
+	UICorner_16.Parent = BreakServer
+
+	BrickSpam.Name = "Brick Spam"
+	BrickSpam.Parent = Scripts
+	BrickSpam.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+	BrickSpam.BorderColor3 = Color3.new(0, 0, 0)
+	BrickSpam.BorderSizePixel = 0
+	BrickSpam.Position = UDim2.new(0.666633189, 0, 0.835794449, 0)
+	BrickSpam.Size = UDim2.new(0, 137, 0, 56)
+	BrickSpam.Font = Enum.Font.SourceSans
+	BrickSpam.Text = "Brick Spam"
+	BrickSpam.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+	BrickSpam.TextScaled = true
+	BrickSpam.TextSize = 14
+	BrickSpam.TextStrokeTransparency = 0
+	BrickSpam.TextWrapped = true
+	BrickSpam.MouseButton1Down:connect(function()
+		-- ghostbin down lol --
+
+		for i=1,500 do -- change 500 with any value
+			game.ReplicatedStorage.Events.OutfitChang:FireServer("Hat", "1513257578")
+			wait(0.1)
+
+			for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetDescendants()) do
+				if v:IsA("Hat") or v:IsA("Accessory") then
+					v.Handle.Mesh:Destroy()
+					v.Parent = game:GetService("Workspace")
+				end
+			end
+		end
+	end)
+
+	UICorner_17.Parent = BrickSpam
+
+	CarSpawner.Name = "Car Spawner"
+	CarSpawner.Parent = Scripts
+	CarSpawner.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+	CarSpawner.BorderColor3 = Color3.new(0, 0, 0)
+	CarSpawner.BorderSizePixel = 0
+	CarSpawner.Position = UDim2.new(0.840500414, 0, 0.625268102, 0)
+	CarSpawner.Size = UDim2.new(0, 137, 0, 56)
+	CarSpawner.Font = Enum.Font.SourceSans
+	CarSpawner.Text = "Car Spawner"
+	CarSpawner.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+	CarSpawner.TextScaled = true
+	CarSpawner.TextSize = 14
+	CarSpawner.TextStrokeTransparency = 0
+	CarSpawner.TextWrapped = true
+	CarSpawner.MouseButton1Down:connect(function()
+		local remote = Game["ReplicatedStorage"]["Events"]["HandleUI"]
+		local args = {
+			[1] = "VehicleMenu",
+			[2] = "gamepass4",
+			[3] = "Countach"
+		}
+		remote:InvokeServer(unpack(args))
+	end)
+
+	UICorner_18.Parent = CarSpawner
+
+	BunnyEars.Name = "Bunny Ears"
+	BunnyEars.Parent = Scripts
+	BunnyEars.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+	BunnyEars.BorderColor3 = Color3.new(0, 0, 0)
+	BunnyEars.BorderSizePixel = 0
+	BunnyEars.Position = UDim2.new(0.840500414, 0, 0.420814663, 0)
+	BunnyEars.Size = UDim2.new(0, 137, 0, 56)
+	BunnyEars.Font = Enum.Font.SourceSans
+	BunnyEars.Text = "Bunny Ears"
+	BunnyEars.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+	BunnyEars.TextScaled = true
+	BunnyEars.TextSize = 14
+	BunnyEars.TextStrokeTransparency = 0
+	BunnyEars.TextWrapped = true
+	BunnyEars.MouseButton1Down:connect(function()
+		game:GetService'ReplicatedStorage'.ITEM_PURCHASE:InvokeServer("gay", "8", "331486631")
+	end)
+
+	UICorner_19.Parent = BunnyEars
+
+	BtoolsFE.Name = "Btools (FE)"
+	BtoolsFE.Parent = Scripts
+	BtoolsFE.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+	BtoolsFE.BorderColor3 = Color3.new(0, 0, 0)
+	BtoolsFE.BorderSizePixel = 0
+	BtoolsFE.Position = UDim2.new(0.840500414, 0, 0.19611831, 0)
+	BtoolsFE.Size = UDim2.new(0, 137, 0, 56)
+	BtoolsFE.Font = Enum.Font.SourceSans
+	BtoolsFE.Text = "Btools (FE)"
+	BtoolsFE.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+	BtoolsFE.TextScaled = true
+	BtoolsFE.TextSize = 14
+	BtoolsFE.TextStrokeTransparency = 0
+	BtoolsFE.TextWrapped = true
+	BtoolsFE.MouseButton1Down:connect(function()
+		local RunService = game:service("RunService")
+		local RbxUtility = LoadLibrary("RbxUtility")
+
+		local plr = game:service("Players").LocalPlayer
+		local m = plr:GetMouse()
+		--local coregui = game:service("CoreGui")
+		local bin = game.CoreGui
+
+		local state = false
+		local mode = 1
+
+		local stuff = {
+			["spectate"] = nil,
+			["sound"] = nil,
+			["musicbin"] = nil
+		}
+
+		for i,v in pairs(game.Workspace:children()) do
+			if v.ClassName == "Model" or v.ClassName == "Folder" then
+				if game.Players:FindFirstChild(v.Name) == nil then
+					stuff.musicbin = v
+					print("music bin found")
+					break
+				end
+			end
+		end
+
+		local modes = {}
+
+		local ModeP = {}
+		local ModeP_mt = {}
+
+		function ModeP:Create(Name, Call, Settings)
+			local New_Mode = {
+				["name"] = Name,
+				["call"] = Call,
+				["settings"] = Settings
+			}
+			setmetatable(New_Mode, ModeP_mt)
+			table.insert(modes, 1, New_Mode)
+			return New_Mode
+		end
+
+		function ModeP:Run(...)
+			print("run method found")
+			if bin:FindFirstChild("_COOL_SETTINGS") == nil then
+				self.call(self.settings, ...)
+			end
+		end
+
+		ModeP_mt.__index = function(ModeObj, Key)
+			return ModeP[Key]
+		end
+
+		ModeP:Create("Brick Bomb", function(settings, target, hitpoint)
+			print("XX", hitpoint)
+			local t
+			local doFunction
+			local blocks
+			if settings.players_only == true then
+				if game.Players:FindFirstChild(target.Parent.Name) then
+					t = game.Players:FindFirstChild(target.Parent.Name)
+				elseif game.Players:FindFirstChild(target.Parent.Parent.Name) then
+					t = game.Players:FindFirstChild(target.Parent.Parent.Name)
+				end
+			end
+			blocks = Instance.new("Model", workspace)
+			blocks.RobloxLocked = true
+			local blocks2 = nil
+			if settings.cleanup == true then
+				blocks2 = blocks
+			end
+			for i=1, settings.threads do
+				spawn(function()
+					print(settings.bricks_per_thread)
+					while true do
+						if settings.brick_spawn_delay == 0 then
+							RunService.Stepped:wait()
+						else
+							wait(settings.brick_spawn_delay)
+						end
+						if t ~= nil then
+							if t.Character ~= nil then
+								if t.Character:FindFirstChild("Torso") then
+									local p = Instance.new("Part")
+									p.Anchored = settings.anchored
+									p.CanCollide = settings.collision
+									p.RobloxLocked = true
+									p.Material = settings.material
+									p.Size = Vector3.new(settings.brick_size_x, settings.brick_size_y, settings.brick_size_z)
+									p.BrickColor = BrickColor.random()
+									p.CFrame = t.Character:FindFirstChild("Torso").CFrame
+									p.Parent = blocks
+								end
+							end
+						elseif settings.players_only == false then
+							local p = Instance.new("Part")
+							p.Anchored = settings.anchored
+							p.RobloxLocked = true
+							p.CanCollide = settings.collision
+							p.Material = settings.material
+							p.Size = Vector3.new(settings.brick_size_x, settings.brick_size_y, settings.brick_size_z)
+							p.BrickColor = BrickColor.random()
+							p.CFrame = hitpoint
+							p.Parent = blocks
+						end
+					end
+				end)
+			end
+			if settings.stop == true then
+				spawn(function()
+					wait(settings.stop_delay)
+					blocks = nil
+				end)
+			end
+			wait(settings.clean_delay)
+			blocks2:Destroy()
+		end, {
+			["threads"] = 8,
+			["brick_size_x"] = 5,
+			["brick_size_y"] = 5,
+			["brick_size_z"] = 5,
+			["cleanup"] = true,
+			["clean_delay"] = 60,
+			["brick_spawn_delay"] = 0.1,
+			["players_only"] = false,
+			["stop"] = true,
+			["stop_delay"] = 20,
+			["material"] = Enum.Material.Neon,
+			["anchored"] = false,
+			["collision"] = true
+		})
+
+		ModeP:Create("View", function(settings, target)
+			local cam = workspace.CurrentCamera
+			cam.CameraType = "Follow"
+			local setcam = game.Players:GetChildren()[math.random(1,#game.Players:GetChildren())]
+			if game.Players:FindFirstChild(tostring(target.Parent)) ~= nil then
+				setcam = game.Players:FindFirstChild(tostring(target.Parent))
+			elseif game.Players:FindFirstChild(tostring(target.Parent.Parent)) ~= nil then
+				setcam = game.Players:FindFirstChild(tostring(target.Parent.Parent))
+			end
+			if setcam:FindFirstChild("leaderstats") == nil then
+				local te = Instance.new("StringValue")
+				te.Name = "leaderstats"
+			end
+--[[if stuff.spectate ~= nil then
+stuff.spectate.Parent = setcam.leaderstats
+stuff.spectate.Value = "Demon"
+else
+local fes = Instance.new("StringValue")
+fes.Name = "Host"
+stuff.spectate = fes
+stuff.spectate.Parent = setcam.leaderstats
+stuff.spectate.Value = "Demon"
+end]]
+			cam.CameraSubject = setcam.Character.Head
+		end)
+
+		ModeP:Create("Freeze & Thaw", function(settings,target)
+			if game.Players:FindFirstChild(tostring(target.Parent)) then
+				if game.Players:FindFirstChild(tostring(target.Parent)).Character.Torso.Anchored == true then
+					game.Players:FindFirstChild(tostring(target.Parent)).Character.Torso.Anchored = false
+				else
+					game.Players:FindFirstChild(tostring(target.Parent)).Character.Torso.Anchored = true
+				end
+			elseif game.Players:FindFirstChild(tostring(target.Parent.Parent)) then
+				if game.Players:FindFirstChild(tostring(target.Parent.Parent)).Character.Torso.Anchored == true then
+					game.Players:FindFirstChild(tostring(target.Parent.Parent)).Character.Torso.Anchored = false
+				else
+					game.Players:FindFirstChild(tostring(target.Parent.Parent)).Character.Torso.Anchored = true
+				end
+			end
+		end)
+
+		ModeP:Create("Kick", function(settings, target)
+			if game.Players:FindFirstChild(tostring(target.Parent)) then
+				game.Players:FindFirstChild(tostring(target.Parent)):Kick("Kicked")
+			elseif game.Players:FindFirstChild(tostring(target.Parent.Parent)) then
+				game.Players:FindFirstChild(tostring(target.Parent.Parent)):Kick("Kicked")
+			end
+		end)
+
+		ModeP:Create("Humanoid Kill", function(settings, target)
+			if game.Players:FindFirstChild(tostring(target.Parent)) then
+				game.Players:FindFirstChild(tostring(target.Parent)).Character.Humanoid:Destroy()
+			elseif game.Players:FindFirstChild(tostring(target.Parent.Parent)) then
+				game.Players:FindFirstChild(tostring(target.Parent.Parent)).Character.Humanoid:Destroy()
+			end
+		end)
+
+		ModeP:Create("Delete", function(settings, target)
+			target:Destroy()
+		end)
+
+		ModeP:Create("Kill", function(settings, target)
+			if game.Players:FindFirstChild(tostring(target.Parent)) then
+				game.Players:FindFirstChild(tostring(target.Parent)).Character.Humanoid.Health = 0
+			elseif game.Players:FindFirstChild(tostring(target.Parent.Parent)) then
+				game.Players:FindFirstChild(tostring(target.Parent.Parent)).Character.Humanoid.Health = 0
+			end
+		end)
+
+		ModeP:Create("Send AWay", function(settings, target)
+			if game.Players:FindFirstChild(tostring(target.Parent)) then
+				target = game.Players:FindFirstChild(tostring(target.Parent))
+			elseif game.Players:FindFirstChild(tostring(target.Parent.Parent)) then
+				target = game.Players:FindFirstChild(tostring(target.Parent.Parent))
+			else
+				print("returning")
+				return
+			end
+
+			local p = Instance.new("Part")
+			local w = Instance.new("Weld")
+			w.Parent = p
+			w.Part0 = p
+			p.Size = Vector3.new(6, 7, 3)
+			p.BrickColor = BrickColor.random()
+			p.Material = Enum.Material.Neon
+			p.Anchored = true
+			p.CanCollide = false
+			p.Transparency = 0.5
+			p.Locked = true
+			p.Parent = workspace
+			p.CFrame = target.Character.Torso.CFrame
+			w.Part1 = target.Character.Torso
+			spawn(function()
+				while wait(0.1) do
+					p.BrickColor = BrickColor.random()
+				end
+			end)
+			local e
+			e = p.Changed:connect(function()
+				target.Character.Torso.CFrame = p.CFrame
+			end)
+
+			for i=1, settings.move_distance do
+				wait(settings.move_rate)
+				p.CFrame = p.CFrame + Vector3.new(0, settings.move_step, 0)
+			end
+			e:Disconnect()
+			p:Destroy()
+		end, {
+			["move_rate"] = 0,
+			["move_step"] = 1.5,
+			["move_distance"] = 1000,
+			["move_threads"] = 1
+		})
+
+		ModeP:Create("Tsunami Sushi", function(settings, target)
+			if game.Players:FindFirstChild(tostring(target.Parent)) then
+				target = game.Players:FindFirstChild(tostring(target.Parent))
+			elseif game.Players:FindFirstChild(tostring(target.Parent.Parent)) then
+				target = game.Players:FindFirstChild(tostring(target.Parent.Parent))
+			else
+				game.Workspace.GiveSystem.GiveItem:FireServer(game.Players.LocalPlayer, target)
+				plr.PlayerGui:WaitForChild("reciever", 15)
+				plr.PlayerGui.reciever:Destroy()
+				return
+			end
+
+			game.Workspace.GiveSystem.GiveItem:FireServer(game.Players.LocalPlayer, target.Character.Humanoid)
+			plr.PlayerGui:WaitForChild("reciever", 15)
+			plr.PlayerGui.reciever:Destroy()
+		end)
+
+
+		local gui = Instance.new("ScreenGui")
+
+		local music_frame = Instance.new("Frame")
+		music_frame.Size = UDim2.new(0, 150, 0, 60)
+		music_frame.Position = UDim2.new(0, 0, 1, -215)
+		music_frame.BorderSizePixel = 5
+		music_frame.BorderColor3 = Color3.new(255/255, 255/255, 255/255)
+		music_frame.BackgroundTransparency = 0.1
+		music_frame.BackgroundColor3 = Color3.new(57/255, 57/255, 57/255)
+
+		local music_entry = Instance.new("TextBox")
+		music_entry.BackgroundTransparency = 0.9
+		music_entry.Size = UDim2.new((2/3), 0, 0.5, 0)
+		music_entry.BackgroundColor3 = Color3.new(0/255, 0/255, 0/255)
+		music_entry.BorderSizePixel = 0
+		music_entry.TextColor3 = Color3.new(255/255, 255/255, 255/255)
+		music_entry.TextSize = 18
+		music_entry.Text = "Music ID"
+		music_entry.Font = "SciFi"
+
+		local volume = Instance.new("TextBox")
+		volume.BackgroundTransparency = 0.8
+		volume.Size = UDim2.new((1/3), 0, 0.5, 0)
+		volume.Position = UDim2.new((2/3), 0, 0, 0)
+		volume.BackgroundColor3 = Color3.new(0/255, 0/255, 0/255)
+		volume.BorderSizePixel = 0
+		volume.TextColor3 = Color3.new(255/255, 255/255, 255/255)
+		volume.TextSize = 16
+		volume.Text = "Vol"
+		volume.Font = "SciFi"
+
+		volume.FocusLost:connect(function()
+			if type(tonumber(volume.Text)) == type(1337) then
+				stuff.sound.Volume = tonumber(volume.Text)
+				volume.Text = tostring(stuff.sound.Volume)
+			else
+				volume.Text = tostring(stuff.sound.Volume)
+			end
+		end)
+
+		local play = Instance.new("TextButton")
+		play.BackgroundColor3 = Color3.new(22/255, 95/255, 0/255)
+		play.BorderSizePixel = 0
+		play.Position = UDim2.new(0, 0, 0.5, 0)
+		play.Size = UDim2.new((1/3), 0, 0.5, 0)
+		play.Font = "SciFi"
+		play.TextSize = 16
+		play.TextColor3 = Color3.new(255/255, 255/255, 255/255)
+		play.Text = "Plaay"
+
+		play.MouseButton1Click:connect(function()
+			if stuff.sound == nil then
+				stuff.sound = Instance.new("Sound", stuff.musicbin)
+			elseif stuff.sound.Parent ~= stuff.musicbin then
+				stuff.sound:Stop()
+				stuff.sound:Destroy()
+				stuff.sound = Instance.new("Sound", stuff.musicbin)
+			elseif stuff.sound.Parent == stuff.musicbin then
+				stuff.sound:Stop()
+			end
+			stuff.sound.SoundId = ("rbxassetid://" .. music_entry.Text)
+			stuff.sound:Play()
+		end)
+
+		local stop = Instance.new("TextButton")
+		stop.BackgroundColor3 = Color3.new(95/255, 0/255, 0/255)
+		stop.BorderSizePixel = 0
+		stop.Position = UDim2.new((1/3), 0, 0.5, 0)
+		stop.Size = UDim2.new((1/3), 0, 0.5, 0)
+		stop.Font = "SciFi"
+		stop.TextSize = 16
+		stop.TextColor3 = Color3.new(255/255, 255/255, 255/255)
+		stop.Text = "Stop"
+
+		stop.MouseButton1Click:connect(function()
+			stuff.sound:Stop()
+			stuff.sound:Destroy()
+			stuff.sound = nil
+		end)
+
+		local allstop = Instance.new("TextButton")
+		allstop.BackgroundColor3 = Color3.new(0/255, 0/255, 0/255)
+		allstop.BorderSizePixel = 0
+		allstop.Position = UDim2.new((2/3), 0, 0.5, 0)
+		allstop.Size = UDim2.new((1/3), 0, 0.5, 0)
+		allstop.Font = "SciFi"
+		allstop.TextSize = 16
+		allstop.TextColor3 = Color3.new(255/255, 255/255, 255/255)
+		allstop.Text = "Solo"
+
+		allstop.MouseButton1Click:connect(function()
+			local function search(container)
+				for i,v in pairs(container:children()) do
+					if #v:children() > 0 then
+						search(v)
+					elseif v.ClassName == "Sound" and v ~= stuff.sound then
+						v:Stop()
+					end
+				end
+			end
+			search(workspace)
+		end)
+
+		allstop.Parent = music_frame
+		stop.Parent = music_frame
+		play.Parent = music_frame
+		volume.Parent = music_frame
+		music_entry.Parent = music_frame
+
+		music_frame.Parent = gui
+
+		local frame = Instance.new("Frame")
+		frame.Size = UDim2.new(0, 150, 0, 100)
+		frame.Position = UDim2.new(0, 0, 1, -140)
+		frame.BackgroundColor3 = Color3.new(57/255, 57/255, 57/255)
+		frame.BackgroundTransparency = 0.1
+		frame.BorderSizePixel = 5
+		frame.BorderColor3 = Color3.new(255/255, 255/255, 255/255)
+
+		local a_line = Instance.new("Frame")
+		a_line.Size = UDim2.new(1, 0, 0, 5)
+		a_line.Position = UDim2.new(0, 0, 0, 17)
+		a_line.BorderSizePixel = 0
+		a_line.BackgroundColor3 = Color3.new(255/255, 255/255, 255/255)
+
+		local title = Instance.new("TextLabel")
+		title.Position = UDim2.new(0, 0, 0, 3)
+		title.Size = UDim2.new(1, 0, 0, 20)
+		title.BackgroundTransparency = 1
+		title.Font = "SciFi"
+		title.TextSize = 14
+		title.TextYAlignment = "Top"
+		if game.Workspace.FilteringEnabled ~= true then
+			title.TextColor3 = Color3.new(0/255, 255/255, 0/255)
+		else
+			title.TextColor3 = Color3.new(255/255, 0/255, 0/255)
+		end
+		title.Text = "Cooler Kids Gui2"
+
+		local instru = Instance.new("TextButton")
+		instru.Position = UDim2.new(0, 0, 0, 20)
+		instru.Size = UDim2.new(1, 0, 0, 20)
+		instru.BackgroundTransparency = 0.9
+		instru.Font = "SciFi"
+		instru.TextColor3 = Color3.new(255/255, 255/255, 255/255)
+		instru.TextSize = 14
+		instru.TextXAlignment = "Left"
+		instru.BorderSizePixel = 0
+		instru.Text = "On"
+
+		instru.MouseButton1Click:connect(function()
+			if instru.Text == "On" then
+				instru.Text = "Off"
+			else
+				instru.Text = "On"
+			end
+		end)
+
+		local mode_l = Instance.new("TextLabel")
+		mode_l.Position = UDim2.new(0, 0, 0, 40)
+		mode_l.Size = UDim2.new(1, 0, 0, 20)
+		mode_l.BackgroundTransparency = 1
+		mode_l.TextColor3 = Color3.new(255/255, 255/255, 255/255)
+		mode_l.Font = "SciFi"
+		mode_l.TextSize = 18
+		mode_l.Text = "[ Press E ]"
+
+		local sets_b = Instance.new("TextButton")
+		sets_b.Position = UDim2.new(0, 0, 1, -40)
+		sets_b.Size = UDim2.new(1, 0, 0, 20)
+		sets_b.BackgroundTransparency = 0.9
+		sets_b.TextColor3 = Color3.new(255/255, 255/255, 255/255)
+		sets_b.Font = "SciFi"
+		sets_b.TextSize = 32
+		sets_b.TextScaled = true
+		sets_b.BorderSizePixel = 0
+		sets_b.Modal = true
+		sets_b.Text = "[ Settings ]"
+
+		local sets_b_db = false
+		sets_b.MouseButton1Click:connect(function()
+			sets_b_db = true
+			if bin:FindFirstChild("_COOL_SETTINGS") then
+				bin:FindFirstChild("_COOL_SETTINGS"):Destroy()
+			else
+
+				local gui = Instance.new("ScreenGui")
+				gui.Name = "_COOL_SETTINGS"
+
+				local frame = Instance.new("Frame")
+				frame.BackgroundColor3 = Color3.new(57/255, 57/255, 57/255)
+				frame.BackgroundTransparency = 0.1
+				frame.BorderColor3 = Color3.new(255/255, 255/255, 255/255)
+				frame.BorderSizePixel = 5
+				frame.Position = UDim2.new(0.5, -150, 0.5, -250)
+				frame.Size = UDim2.new(0, 300, 0, 500)
+
+				local a_line = Instance.new("Frame")
+				a_line.BackgroundColor3 = Color3.new(255/255, 255/255, 255/255)
+				a_line.BorderSizePixel = 0
+				a_line.Position = UDim2.new(0, 0, 0, 22)
+				a_line.Size = UDim2.new(1, 0, 0, 5)
+
+				local title = Instance.new("TextLabel")
+				title.BackgroundTransparency = 1
+				title.Size = UDim2.new(1, 0, 0, 22)
+				title.TextColor3 = Color3.new(255/255, 255/255, 255/255)
+				title.TextScaled = true
+				title.Font = "SciFi"
+				title.TextXAlignment = "Left"
+				title.Text = "Mode Settings"
+
+				local scroller = Instance.new("ScrollingFrame")
+				scroller.BackgroundTransparency = 1
+				scroller.Position = UDim2.new(0, 0, 0, 27)
+				scroller.Size = UDim2.new(1, 0, 1, -27)
+				scroller.ScrollBarThickness = 0
+
+				local hostmode = modes[mode]
+
+				--scroller.CanvasSize = Vector2.new(0,(#hostmode*20))
+				for i,v in pairs(hostmode.settings) do
+					scroller.CanvasSize = UDim2.new(0, 0, 0, scroller.CanvasSize.Y.Offset+20)
+					local frame = Instance.new("Frame")
+					frame.BackgroundTransparency = 1
+					frame.Size = UDim2.new(1, 0, 0, 20)
+					frame.Position = UDim2.new(0, 0, 0, scroller.CanvasSize.Y.Offset-20)
+
+					local label = Instance.new("TextLabel")
+					label.BackgroundTransparency = 1
+					label.Size = UDim2.new(0.5, 0, 1, 0)
+					label.Font = "SciFi"
+					label.TextScaled = true
+					label.TextColor3 = Color3.new(255/255, 255/255, 255/255)
+					label.TextXAlignment = "Left"
+					label.Text = i
+
+					local input = Instance.new("TextBox")
+					input.BackgroundTransparency = 0.8
+					input.BackgroundColor3 = Color3.new(0/255, 0/255, 0/255)
+					input.TextColor3 = Color3.new(255/255, 255/255, 255/255)
+					input.BorderSizePixel = 0
+					input.ClearTextOnFocus = true
+					input.Position = UDim2.new(0.5, 0, 0, 0)
+					input.Size = UDim2.new(0.5, 0, 1, 0)
+					input.Font = "SciFi"
+					input.TextScaled = true
+					input.Text = tostring(v)
+
+					input.FocusLost:connect(function(property)
+						print("ffffffff")
+						if type(v) == type(true) then
+							if input.Text:lower() == "true" then
+								hostmode.settings[i] = true
+							elseif input.Text:lower() == "false" then
+								hostmode.settings[i] = false
+							else
+								input.Text = tostring(hostmode.settings[i])
+							end
+						elseif type(v) == type(45678) then
+							if tonumber(input.Text) ~= nil then
+								hostmode.settings[i] = tonumber(input.Text)
+							else
+								input.Text = tostring(hostmode.settings[i])
+							end
+						elseif type(v) == type(Enum.Material.Plastic) then
+							for _,v in pairs(Enum.Material:GetEnumItems()) do
+								print("TEST", tostring(v):lower() == ("enum.material."..input.Text), tostring(v):lower(), ("enum.material."..input.Text))
+								if tostring(v):lower() == ("enum.material."..input.Text) then
+									print(hostmode.settings[i])
+									hostmode.settings[i] = v
+									print("match", hostmode.settings[i])
+									return
+								end
+							end
+							input.Text = tostring(hostmode.settings[i])
+						end
+					end)
+
+					input.Parent = frame
+					label.Parent = frame
+
+					frame.Parent = scroller
+				end
+
+				scroller.Parent = frame
+				title.Parent = frame
+				a_line.Parent = frame
+
+				frame.Parent = gui
+
+				gui.Parent = bin
+
+			end
+			sets_b_db = false
+		end)
+
+		local lock = Instance.new("TextButton")
+		lock.Position = UDim2.new(0, 0, 1, -20)
+		lock.Size = UDim2.new(1, 0, 0, 20)
+		lock.BackgroundTransparency = 0.9
+		lock.TextColor3 = Color3.new(255/255, 255/255, 255/255)
+		lock.Font = "SciFi"
+		lock.TextSize = 32
+		lock.TextScaled = true
+		lock.BorderSizePixel = 0
+		lock.Text = "[ Unlocked ]"
+
+		lock.MouseButton1Click:connect(function()
+			state = not state
+			if state then
+				lock.Text = "[ Locked ]"
+			else
+				lock.Text = "[ Unlocked ]"
+			end
+		end)
+
+		lock.Parent = frame
+		sets_b.Parent = frame
+		mode_l.Parent = frame
+		instru.Parent = frame
+		title.Parent = frame
+		a_line.Parent = frame
+
+		frame.Parent = gui
+
+
+
+
+		gui.Parent = bin
+
+
+		m.Button1Down:connect(function()
+			if m.Target ~= nil and instru.Text == "On" and bin:FindFirstChild("_COOL_SETTINGS") == nil then
+				print(m.Hit)
+				modes[mode]:Run(m.Target, m.Hit)
+			end
+		end)
+
+		game:GetService("UserInputService").InputBegan:connect(function(iob, gpe)
+			if iob.KeyCode == Enum.KeyCode.E and not state and bin:FindFirstChild("_COOL_SETTINGS") == nil then
+				if mode < #modes then
+					mode = mode + 1
+					mode_l.Text = modes[mode].name
+				else
+					mode = 1
+					mode_l.Text = modes[mode].name
+				end
+			elseif iob.KeyCode == Enum.KeyCode.R then
+				for i,v in pairs(_G.csets) do
+					print(i)
+					for i,v in pairs(v) do
+						print("[[ " .. i .. " ]] -- " .. "[[ " .. v .. " ]]")
+					end
+				end
+			end
+		end)
+	end)
+
+	UICorner_20.Parent = BtoolsFE
+
+	MoreScripts.Name = "More Scripts..."
+	MoreScripts.Parent = FrameOfIt
+	MoreScripts.BackgroundColor3 = Color3.new(0, 1, 0)
+	MoreScripts.BorderColor3 = Color3.new(0, 0, 0)
+	MoreScripts.BorderSizePixel = 0
+	MoreScripts.Position = UDim2.new(0.840500414, 0, 0.813765168, 0)
+	MoreScripts.Size = UDim2.new(0, 136, 0, 66)
+	MoreScripts.Font = Enum.Font.Unknown
+	MoreScripts.Text = "More Scripts.."
+	MoreScripts.TextColor3 = Color3.new(0.117647, 0.541176, 0.0705882)
+	MoreScripts.TextScaled = true
+	MoreScripts.TextSize = 14
+	MoreScripts.TextWrapped = true
+	
+
+	UICorner_21.Parent = MoreScripts
+
+	-- Scripts
+
+	local function HEYD_fake_script() -- FrameOfIt.Dragg 
+		local script = Instance.new('LocalScript', FrameOfIt)
+
+		local UserInputService = game:GetService("UserInputService")
+		local frame = script.Parent
+		local dragging = false
+		local dragStart = nil
+		local startPos = nil
+
+		local function startDrag(input)
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+		end
+
+		local function updateDrag(input)
+			if dragging then
+				local delta = input.Position - dragStart
+				frame.Position = UDim2.new(
+					startPos.X.Scale,
+					startPos.X.Offset + delta.X,
+					startPos.Y.Scale,
+					startPos.Y.Offset + delta.Y
+				)
+			end
+		end
+
+		local function endDrag()
+			dragging = false
+		end
+
+		frame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				startDrag(input)
+			end
+		end)
+
+		frame.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement then
+				updateDrag(input)
+			end
+		end)
+
+		frame.InputEnded:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				endDrag()
+			end
+		end)
+
+
+	end
+	coroutine.wrap(HEYD_fake_script)()
+	local function ICYTXBT_fake_script() -- FrameOfIt.RGB 
+		local script = Instance.new('LocalScript', FrameOfIt)
+
+
+		local frame = script.Parent
+
+		local function getRandomColor()
+			local red = math.random(0, 255) / 255
+			local green = math.random(0, 255) / 255
+			local blue = math.random(0, 255) / 255
+			return Color3.new(red, green, blue)
+		end
+
+		local function lerpColor(color1, color2, alpha)
+			local red = color1.R + (color2.R - color1.R) * alpha
+			local green = color1.G + (color2.G - color1.G) * alpha
+			local blue = color1.B + (color2.B - color1.B) * alpha
+			return Color3.new(red, green, blue)
+		end
+
+		local function smoothColorChange(duration)
+			local startColor = frame.BackgroundColor3
+			local endColor = getRandomColor()
+			local startTime = tick()
+
+			while tick() - startTime < duration do
+				local elapsed = tick() - startTime
+				local alpha = elapsed / duration
+				frame.BackgroundColor3 = lerpColor(startColor, endColor, alpha)
+				wait(0.02) 
+			end
+
+			frame.BackgroundColor3 = endColor
+		end
+
+
+		while true do
+			smoothColorChange(5) 
+		end
+
+	end
+	coroutine.wrap(ICYTXBT_fake_script)()
+	local function KHJZO_fake_script() -- BalkusGui.Rainbow Stroke 
+		local script = Instance.new('LocalScript', BalkusGui)
+
+		local textObject = script.Parent
+		local stroke = textObject:FindFirstChildOfClass("UIStroke")
+
+
+		if not stroke then
+			warn("UIStroke not found on the text object")
+			return
+		end
+
+		local rainbowColors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+
+		local transitionSpeed = 0.1 
+		local currentIndex = 1
+
+		while true do
+			for i = 1, #rainbowColors do
+				stroke.Color = rainbowColors[currentIndex]
+				currentIndex = currentIndex % #rainbowColors + 1
+				wait(transitionSpeed)
+			end
+		end
+
+
+	end
+	coroutine.wrap(KHJZO_fake_script)()
+	local function XPNLH_fake_script() -- BarrelRoll.Rainbow Stroke 
+		local script = Instance.new('LocalScript', BarrelRoll)
+
+		local textObject = script.Parent
+		local stroke = textObject:FindFirstChildOfClass("UIStroke")
+
+
+		if not stroke then
+			warn("UIStroke not found on the text object")
+			return
+		end
+
+		local rainbowColors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+
+		local transitionSpeed = 0.1 
+		local currentIndex = 1
+
+		while true do
+			for i = 1, #rainbowColors do
+				stroke.Color = rainbowColors[currentIndex]
+				currentIndex = currentIndex % #rainbowColors + 1
+				wait(transitionSpeed)
+			end
+		end
+
+
+	end
+	coroutine.wrap(XPNLH_fake_script)()
+	local function HVELRUG_fake_script() -- BecomeAFakeSimon.Rainbow Stroke 
+		local script = Instance.new('LocalScript', BecomeAFakeSimon)
+
+		local textObject = script.Parent
+		local stroke = textObject:FindFirstChildOfClass("UIStroke")
+
+
+		if not stroke then
+			warn("UIStroke not found on the text object")
+			return
+		end
+
+		local rainbowColors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+
+		local transitionSpeed = 0.1 
+		local currentIndex = 1
+
+		while true do
+			for i = 1, #rainbowColors do
+				stroke.Color = rainbowColors[currentIndex]
+				currentIndex = currentIndex % #rainbowColors + 1
+				wait(transitionSpeed)
+			end
+		end
+
+
+	end
+	coroutine.wrap(HVELRUG_fake_script)()
+	local function VAWL_fake_script() -- BecomeAFakeBarista.Rainbow Stroke 
+		local script = Instance.new('LocalScript', BecomeAFakeBarista)
+
+		local textObject = script.Parent
+		local stroke = textObject:FindFirstChildOfClass("UIStroke")
+
+
+		if not stroke then
+			warn("UIStroke not found on the text object")
+			return
+		end
+
+		local rainbowColors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+
+		local transitionSpeed = 0.1 
+		local currentIndex = 1
+
+		while true do
+			for i = 1, #rainbowColors do
+				stroke.Color = rainbowColors[currentIndex]
+				currentIndex = currentIndex % #rainbowColors + 1
+				wait(transitionSpeed)
+			end
+		end
+
+
+	end
+	coroutine.wrap(VAWL_fake_script)()
+	local function WJMYAV_fake_script() -- BlackChat.Rainbow Stroke 
+		local script = Instance.new('LocalScript', BlackChat)
+
+		local textObject = script.Parent
+		local stroke = textObject:FindFirstChildOfClass("UIStroke")
+
+
+		if not stroke then
+			warn("UIStroke not found on the text object")
+			return
+		end
+
+		local rainbowColors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+
+		local transitionSpeed = 0.1 
+		local currentIndex = 1
+
+		while true do
+			for i = 1, #rainbowColors do
+				stroke.Color = rainbowColors[currentIndex]
+				currentIndex = currentIndex % #rainbowColors + 1
+				wait(transitionSpeed)
+			end
+		end
+
+
+	end
+	coroutine.wrap(WJMYAV_fake_script)()
+	local function MJZB_fake_script() -- Blackhole.Rainbow Stroke 
+		local script = Instance.new('LocalScript', Blackhole)
+
+		local textObject = script.Parent
+		local stroke = textObject:FindFirstChildOfClass("UIStroke")
+
+
+		if not stroke then
+			warn("UIStroke not found on the text object")
+			return
+		end
+
+		local rainbowColors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+
+		local transitionSpeed = 0.1 
+		local currentIndex = 1
+
+		while true do
+			for i = 1, #rainbowColors do
+				stroke.Color = rainbowColors[currentIndex]
+				currentIndex = currentIndex % #rainbowColors + 1
+				wait(transitionSpeed)
+			end
+		end
+
+
+	end
+	coroutine.wrap(MJZB_fake_script)()
+	local function EOYI_fake_script() -- Blink.Rainbow Stroke 
+		local script = Instance.new('LocalScript', Blink)
+
+		local textObject = script.Parent
+		local stroke = textObject:FindFirstChildOfClass("UIStroke")
+
+
+		if not stroke then
+			warn("UIStroke not found on the text object")
+			return
+		end
+
+		local rainbowColors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+
+		local transitionSpeed = 0.1 
+		local currentIndex = 1
+
+		while true do
+			for i = 1, #rainbowColors do
+				stroke.Color = rainbowColors[currentIndex]
+				currentIndex = currentIndex % #rainbowColors + 1
+				wait(transitionSpeed)
+			end
+		end
+
+
+	end
+	coroutine.wrap(EOYI_fake_script)()
+	local function VSGV_fake_script() -- BlockHats.Rainbow Stroke 
+		local script = Instance.new('LocalScript', BlockHats)
+
+		local textObject = script.Parent
+		local stroke = textObject:FindFirstChildOfClass("UIStroke")
+
+
+		if not stroke then
+			warn("UIStroke not found on the text object")
+			return
+		end
+
+		local rainbowColors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+
+		local transitionSpeed = 0.1 
+		local currentIndex = 1
+
+		while true do
+			for i = 1, #rainbowColors do
+				stroke.Color = rainbowColors[currentIndex]
+				currentIndex = currentIndex % #rainbowColors + 1
+				wait(transitionSpeed)
+			end
+		end
+
+
+	end
+	coroutine.wrap(VSGV_fake_script)()
+	local function DVYL_fake_script() -- Block.Rainbow Stroke 
+		local script = Instance.new('LocalScript', Block)
+
+		local textObject = script.Parent
+		local stroke = textObject:FindFirstChildOfClass("UIStroke")
+
+
+		if not stroke then
+			warn("UIStroke not found on the text object")
+			return
+		end
+
+		local rainbowColors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+
+		local transitionSpeed = 0.1 
+		local currentIndex = 1
+
+		while true do
+			for i = 1, #rainbowColors do
+				stroke.Color = rainbowColors[currentIndex]
+				currentIndex = currentIndex % #rainbowColors + 1
+				wait(transitionSpeed)
+			end
+		end
+
+
+	end
+	coroutine.wrap(DVYL_fake_script)()
+	local function NYVBIU_fake_script() -- BlockHead.Rainbow Stroke 
+		local script = Instance.new('LocalScript', BlockHead)
+
+		local textObject = script.Parent
+		local stroke = textObject:FindFirstChildOfClass("UIStroke")
+
+
+		if not stroke then
+			warn("UIStroke not found on the text object")
+			return
+		end
+
+		local rainbowColors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+
+		local transitionSpeed = 0.1 
+		local currentIndex = 1
+
+		while true do
+			for i = 1, #rainbowColors do
+				stroke.Color = rainbowColors[currentIndex]
+				currentIndex = currentIndex % #rainbowColors + 1
+				wait(transitionSpeed)
+			end
+		end
+
+
+	end
+	coroutine.wrap(NYVBIU_fake_script)()
+	local function GUOU_fake_script() -- BombVest.Rainbow Stroke 
+		local script = Instance.new('LocalScript', BombVest)
+
+		local textObject = script.Parent
+		local stroke = textObject:FindFirstChildOfClass("UIStroke")
+
+
+		if not stroke then
+			warn("UIStroke not found on the text object")
+			return
+		end
+
+		local rainbowColors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+
+		local transitionSpeed = 0.1 
+		local currentIndex = 1
+
+		while true do
+			for i = 1, #rainbowColors do
+				stroke.Color = rainbowColors[currentIndex]
+				currentIndex = currentIndex % #rainbowColors + 1
+				wait(transitionSpeed)
+			end
+		end
+
+
+	end
+	coroutine.wrap(GUOU_fake_script)()
+	local function HANMT_fake_script() -- BowDown.Rainbow Stroke 
+		local script = Instance.new('LocalScript', BowDown)
+
+		local textObject = script.Parent
+		local stroke = textObject:FindFirstChildOfClass("UIStroke")
+
+
+		if not stroke then
+			warn("UIStroke not found on the text object")
+			return
+		end
+
+		local rainbowColors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+
+		local transitionSpeed = 0.1 
+		local currentIndex = 1
+
+		while true do
+			for i = 1, #rainbowColors do
+				stroke.Color = rainbowColors[currentIndex]
+				currentIndex = currentIndex % #rainbowColors + 1
+				wait(transitionSpeed)
+			end
+		end
+
+
+	end
+	coroutine.wrap(HANMT_fake_script)()
+	local function NUOE_fake_script() -- BoxFarmGuiPressN.Rainbow Stroke 
+		local script = Instance.new('LocalScript', BoxFarmGuiPressN)
+
+		local textObject = script.Parent
+		local stroke = textObject:FindFirstChildOfClass("UIStroke")
+
+
+		if not stroke then
+			warn("UIStroke not found on the text object")
+			return
+		end
+
+		local rainbowColors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+
+		local transitionSpeed = 0.1 
+		local currentIndex = 1
+
+		while true do
+			for i = 1, #rainbowColors do
+				stroke.Color = rainbowColors[currentIndex]
+				currentIndex = currentIndex % #rainbowColors + 1
+				wait(transitionSpeed)
+			end
+		end
+
+
+	end
+	coroutine.wrap(NUOE_fake_script)()
+	local function YKNNJF_fake_script() -- BreakCharacter.Rainbow Stroke 
+		local script = Instance.new('LocalScript', BreakCharacter)
+
+		local textObject = script.Parent
+		local stroke = textObject:FindFirstChildOfClass("UIStroke")
+
+
+		if not stroke then
+			warn("UIStroke not found on the text object")
+			return
+		end
+
+		local rainbowColors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+
+		local transitionSpeed = 0.1 
+		local currentIndex = 1
+
+		while true do
+			for i = 1, #rainbowColors do
+				stroke.Color = rainbowColors[currentIndex]
+				currentIndex = currentIndex % #rainbowColors + 1
+				wait(transitionSpeed)
+			end
+		end
+
+
+	end
+	coroutine.wrap(YKNNJF_fake_script)()
+	local function HWKAMT_fake_script() -- BreakServer.Rainbow Stroke 
+		local script = Instance.new('LocalScript', BreakServer)
+
+		local textObject = script.Parent
+		local stroke = textObject:FindFirstChildOfClass("UIStroke")
+
+
+		if not stroke then
+			warn("UIStroke not found on the text object")
+			return
+		end
+
+		local rainbowColors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+
+		local transitionSpeed = 0.1 
+		local currentIndex = 1
+
+		while true do
+			for i = 1, #rainbowColors do
+				stroke.Color = rainbowColors[currentIndex]
+				currentIndex = currentIndex % #rainbowColors + 1
+				wait(transitionSpeed)
+			end
+		end
+
+
+	end
+	coroutine.wrap(HWKAMT_fake_script)()
+	local function MDUCNPO_fake_script() -- BrickSpam.Rainbow Stroke 
+		local script = Instance.new('LocalScript', BrickSpam)
+
+		local textObject = script.Parent
+		local stroke = textObject:FindFirstChildOfClass("UIStroke")
+
+
+		if not stroke then
+			warn("UIStroke not found on the text object")
+			return
+		end
+
+		local rainbowColors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+
+		local transitionSpeed = 0.1 
+		local currentIndex = 1
+
+		while true do
+			for i = 1, #rainbowColors do
+				stroke.Color = rainbowColors[currentIndex]
+				currentIndex = currentIndex % #rainbowColors + 1
+				wait(transitionSpeed)
+			end
+		end
+
+
+	end
+	coroutine.wrap(MDUCNPO_fake_script)()
+	local function RANTZ_fake_script() -- CarSpawner.Rainbow Stroke 
+		local script = Instance.new('LocalScript', CarSpawner)
+
+		local textObject = script.Parent
+		local stroke = textObject:FindFirstChildOfClass("UIStroke")
+
+
+		if not stroke then
+			warn("UIStroke not found on the text object")
+			return
+		end
+
+		local rainbowColors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+
+		local transitionSpeed = 0.1 
+		local currentIndex = 1
+
+		while true do
+			for i = 1, #rainbowColors do
+				stroke.Color = rainbowColors[currentIndex]
+				currentIndex = currentIndex % #rainbowColors + 1
+				wait(transitionSpeed)
+			end
+		end
+
+
+	end
+	coroutine.wrap(RANTZ_fake_script)()
+	local function PTTOMTE_fake_script() -- BunnyEars.Rainbow Stroke 
+		local script = Instance.new('LocalScript', BunnyEars)
+
+		local textObject = script.Parent
+		local stroke = textObject:FindFirstChildOfClass("UIStroke")
+
+
+		if not stroke then
+			warn("UIStroke not found on the text object")
+			return
+		end
+
+		local rainbowColors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+
+		local transitionSpeed = 0.1 
+		local currentIndex = 1
+
+		while true do
+			for i = 1, #rainbowColors do
+				stroke.Color = rainbowColors[currentIndex]
+				currentIndex = currentIndex % #rainbowColors + 1
+				wait(transitionSpeed)
+			end
+		end
+
+
+	end
+	coroutine.wrap(PTTOMTE_fake_script)()
+	local function KJNWBYN_fake_script() -- BtoolsFE.Rainbow Stroke 
+		local script = Instance.new('LocalScript', BtoolsFE)
+
+		local textObject = script.Parent
+		local stroke = textObject:FindFirstChildOfClass("UIStroke")
+
+
+		if not stroke then
+			warn("UIStroke not found on the text object")
+			return
+		end
+
+		local rainbowColors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+
+		local transitionSpeed = 0.1 
+		local currentIndex = 1
+
+		while true do
+			for i = 1, #rainbowColors do
+				stroke.Color = rainbowColors[currentIndex]
+				currentIndex = currentIndex % #rainbowColors + 1
+				wait(transitionSpeed)
+			end
+		end
+
+
+	end
+	coroutine.wrap(KJNWBYN_fake_script)()
+
+end)
+
+UICorner_21.Parent = MoreScripts
+
+-- Scripts
+
+local function WLFS_fake_script() -- FrameOfIt.Dragg 
+	local script = Instance.new('LocalScript', FrameOfIt)
+
+	local UserInputService = game:GetService("UserInputService")
+	local frame = script.Parent
+	local dragging = false
+	local dragStart = nil
+	local startPos = nil
+	
+	local function startDrag(input)
+		dragging = true
+		dragStart = input.Position
+		startPos = frame.Position
+	end
+	
+	local function updateDrag(input)
+		if dragging then
+			local delta = input.Position - dragStart
+			frame.Position = UDim2.new(
+				startPos.X.Scale,
+				startPos.X.Offset + delta.X,
+				startPos.Y.Scale,
+				startPos.Y.Offset + delta.Y
+			)
+		end
+	end
+	
+	local function endDrag()
+		dragging = false
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			startDrag(input)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			updateDrag(input)
+		end
+	end)
+	
+	frame.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			endDrag()
+		end
+	end)
+	
+	
+end
+coroutine.wrap(WLFS_fake_script)()
+local function QCDOZ_fake_script() -- FrameOfIt.RGB 
+	local script = Instance.new('LocalScript', FrameOfIt)
+
+	
+	local frame = script.Parent
+	
+	local function getRandomColor()
+		local red = math.random(0, 255) / 255
+		local green = math.random(0, 255) / 255
+		local blue = math.random(0, 255) / 255
+		return Color3.new(red, green, blue)
+	end
+	
+	local function lerpColor(color1, color2, alpha)
+		local red = color1.R + (color2.R - color1.R) * alpha
+		local green = color1.G + (color2.G - color1.G) * alpha
+		local blue = color1.B + (color2.B - color1.B) * alpha
+		return Color3.new(red, green, blue)
+	end
+	
+	local function smoothColorChange(duration)
+		local startColor = frame.BackgroundColor3
+		local endColor = getRandomColor()
+		local startTime = tick()
+	
+		while tick() - startTime < duration do
+			local elapsed = tick() - startTime
+			local alpha = elapsed / duration
+			frame.BackgroundColor3 = lerpColor(startColor, endColor, alpha)
+			wait(0.02) 
+		end
+	
+		frame.BackgroundColor3 = endColor
+	end
+	
+	
+	while true do
+		smoothColorChange(5) 
+	end
+	
+end
+coroutine.wrap(QCDOZ_fake_script)()
+local function KHAFIR_fake_script() -- Antilag.Rainbow Stroke 
+	local script = Instance.new('LocalScript', Antilag)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(KHAFIR_fake_script)()
+local function VNFEZ_fake_script() -- FEAstravaGui.Rainbow Stroke 
+	local script = Instance.new('LocalScript', FEAstravaGui)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(VNFEZ_fake_script)()
+local function EFSZG_fake_script() -- OPFinalityGui.Rainbow Stroke 
+	local script = Instance.new('LocalScript', OPFinalityGui)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(EFSZG_fake_script)()
+local function KXIOM_fake_script() -- RevizAdminGui.Rainbow Stroke 
+	local script = Instance.new('LocalScript', RevizAdminGui)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(KXIOM_fake_script)()
+local function WCBZOJ_fake_script() -- PFMenu.Rainbow Stroke 
+	local script = Instance.new('LocalScript', PFMenu)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(WCBZOJ_fake_script)()
+local function EDFZKV_fake_script() -- ScriptHub.Rainbow Stroke 
+	local script = Instance.new('LocalScript', ScriptHub)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(EDFZKV_fake_script)()
+local function WCLBDFV_fake_script() -- AdvancedRHSGui.Rainbow Stroke 
+	local script = Instance.new('LocalScript', AdvancedRHSGui)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(WCLBDFV_fake_script)()
+local function LONYZMO_fake_script() -- Aimbot.Rainbow Stroke 
+	local script = Instance.new('LocalScript', Aimbot)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(LONYZMO_fake_script)()
+local function ORZYU_fake_script() -- AnimationGui.Rainbow Stroke 
+	local script = Instance.new('LocalScript', AnimationGui)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(ORZYU_fake_script)()
+local function MFKXORZ_fake_script() -- AK47.Rainbow Stroke 
+	local script = Instance.new('LocalScript', AK47)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(MFKXORZ_fake_script)()
+local function PSLCAL_fake_script() -- R15Gui.Rainbow Stroke 
+	local script = Instance.new('LocalScript', R15Gui)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(PSLCAL_fake_script)()
+local function SVZHXBH_fake_script() -- AposAdmin.Rainbow Stroke 
+	local script = Instance.new('LocalScript', AposAdmin)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(SVZHXBH_fake_script)()
+local function EGIU_fake_script() -- ArmDetach.Rainbow Stroke 
+	local script = Instance.new('LocalScript', ArmDetach)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(EGIU_fake_script)()
+local function AXFO_fake_script() -- ArmFlap.Rainbow Stroke 
+	local script = Instance.new('LocalScript', ArmFlap)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(AXFO_fake_script)()
+local function SXVEXNG_fake_script() -- ArmTurbine.Rainbow Stroke 
+	local script = Instance.new('LocalScript', ArmTurbine)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(SXVEXNG_fake_script)()
+local function COIMDUA_fake_script() -- Arms.Rainbow Stroke 
+	local script = Instance.new('LocalScript', Arms)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(COIMDUA_fake_script)()
+local function LZCPOS_fake_script() -- AttachPlayerNEED2TOOLS.Rainbow Stroke 
+	local script = Instance.new('LocalScript', AttachPlayerNEED2TOOLS)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(LZCPOS_fake_script)()
+local function WSFT_fake_script() -- ArosiaGui.Rainbow Stroke 
+	local script = Instance.new('LocalScript', ArosiaGui)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(WSFT_fake_script)()
+local function CPHGH_fake_script() -- ArmsOut.Rainbow Stroke 
+	local script = Instance.new('LocalScript', ArmsOut)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(CPHGH_fake_script)()
